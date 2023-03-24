@@ -1,0 +1,316 @@
+.menu-box-izq {
+    position: absolute;
+    width: 189px;
+    height: 1023px;
+    left: 0px;
+    top: 1px;
+    background: #2E4154;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#informacion-text {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 22px;
+    top: 273px;
+    color: white;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.pestaña { /*pestaña izquierda*/
+    position: absolute;
+    width: 257px;
+    height: 142px;
+    left: 0px;
+    top: 368px;
+    background: #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 30px 30px 0px;
+}
+.edvisto-icon {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 30px;
+    top: 25px;
+}
+
+#evaluacion-text {
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 116px;
+    top: 78px; 
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.evaluacion-icon {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 133px;
+    top: 18px;    
+}
+
+#analisis-text {
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 41px;
+    top: 623px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.analisis-icon {
+    position: absolute;
+    width: 68px;
+    height: 69px;
+    left: 58px;
+    top: 563px;
+}
+
+#informe-text {
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 41px;
+    top: 798px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.informacion-icon {
+    position: absolute;
+    width: 68px;
+    height: 69px;
+    left: 59px;
+    top: 213px;
+}
+.informe-icon {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 58px;
+    top: 738px;
+}
+
+.formulario {
+    font-size: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#datos {
+    float: right;
+}
+#link-input { /*input "link de youtube"*/
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 44px;
+    left: 447px;
+    top: 238px;    
+    background: #FFFFFF;
+    border: 3px solid #6B839A;
+}
+#link-text {
+    position: absolute;
+    width: 321px;
+    height: 31px;
+    left: 447px;
+    top: 192px;    
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;   
+    color: #6B839A;    
+}
+#nombre-input { /*input texto "nombre del lider del proyecto"*/
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 44px;
+    left: 447px;
+    top: 324px;
+    background: #FFFFFF;
+    border: 3px solid #6B839A;
+
+}
+#nombre-text {
+    position: absolute;
+    width: 321px;
+    height: 31px;
+    left: 447px;
+    top: 278px;   
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;   
+    color: #7A7399;
+}
+#email-input { /*input texto "email del lider del proyecto"*/
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 44px;
+    left: 447px;
+    top: 406px;
+    background: #FFFFFF;
+    border: 3px solid #6B839A;  
+}
+#email-text {
+    position: absolute;
+    width: 207px;
+    height: 31px;
+    left: 447px;
+    top: 360px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7A7399;
+}
+#titulo-input {/*input texto "titulo del video"*/
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 44px;
+    left: 447px;
+    top: 488px;    
+    background: #FFFFFF;
+    border: 3px solid #6B839A;    
+}
+#titulo-text {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 445px;
+    top: 442px;   
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;   
+    color: #7A7399;    
+}
+#descripcion-input { /*input texto "descripcion del video"*/
+    box-sizing: border-box;
+    position: absolute;
+    width: 515px;
+    height: 208px;
+    left: 445px;
+    top: 575px;   
+    background: #FFFFFF;
+    border: 3px solid #6B839A;
+}
+#descripcion-text {
+    position: absolute;
+    width: 224.31px;
+    height: 31px;
+    left: 445px;
+    top: 528px;   
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;   
+    color: #7A7399;
+}
+#guardar { /*input enviar*/
+    position: absolute;
+    width: 163px;
+    height: 58px;
+    left: 997px;
+    top: 698px;
+    color: white;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+h6 {
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.camara {
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    left: 1027px;
+    top: 580px;
+}
+#sup-izq {
+    position: absolute;
+    width: 321px;
+    height: 31px;
+    left: 273px;
+    top: 42px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7A7399;    
+}
+#sup-der {
+    position: absolute;
+    width: 130px;
+    height: 31px;
+    left: 1100px;
+    top: 42px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center; 
+    color: #7A7399;
+}
+.mayor-que-logo {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 254px;
+    top: 73px;
+}
+.usuario-logo {
+    position: absolute;
+    width: 50.5px;
+    height: 50.5px;
+    left: 1258px;
+    top: 65px;
+}
+.config-logo {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 1309px;
+    top: 64px;
+}
