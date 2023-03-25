@@ -34,16 +34,21 @@
         <button type="img"> <img src="iconos/usuario.png" class="usuario-logo" alt="usuario"></button>
         <button type="img"> <img src="iconos/configuraciones.png" class="config-logo" alt="config-logo"></button>
         <form>
-            <p id="link-text">CARGAR LINK DE YOUTUBE</p>
-            <input type="text" id="link-input" name="link">
-            <p id="nombre-text">NOMBRE Y APELLIDO DEL LIDER DEL PROYECTO</p>
+            <label for="link-text" id="link-text">CARGAR LINK DE YOUTUBE</label>
+            <input type="url" id="link-input" name="link">
+
+            <label for="nombre-text" id="nombre-text">NOMBRE Y APELLIDO DEL LIDER DEL PROYECTO</label>
             <input type="text" id="nombre-input" name="nombre">
-            <p id="email-text">EMAIL DEL LIDER DEL PROYECTO</p>
-            <input type="text" id="email-input" name="email">
-            <p id="titulo-text">TÍTULO DEL PROYECTO</p>
+
+            <label for="email-text" id="email-text">EMAIL DEL LIDER DEL PROYECTO</label>
+            <input type="email" id="email-input" name="email">
+
+            <label for="titulo-text" id="titulo-text">TÍTULO DEL PROYECTO</label>
             <input type="text" id="titulo-input" name="titulo">
-            <p id="descripcion-text">DESCRIPCIÓN DEL PROYECTO</p>
-            <input type="text" id="descripcion-input" name="descripcion">
+
+            <label for="descripcion" id="descripcion-text">DESCRIPCIÓN DEL PROYECTO</label>
+            <textarea type="text" id="descripcion-input" name="descripcion"> </textarea>
+            
             <button type="image"><img src="iconos/camara.png" class="camara" alt="camara icono"></button>
             <input type="submit" id="guardar" value="GUARDAR 
 INFORMACIÓN">
