@@ -133,6 +133,8 @@
     top: 238px;    
     background: #FFFFFF;
     border: 3px solid #6B839A;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: medium;
 }
 #link-text {
     position: absolute;
@@ -156,7 +158,8 @@
     top: 324px;
     background: #FFFFFF;
     border: 3px solid #6B839A;
-
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: medium;
 }
 #nombre-text {
     position: absolute;
@@ -180,6 +183,8 @@
     top: 406px;
     background: #FFFFFF;
     border: 3px solid #6B839A;  
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: medium;
 }
 #email-text {
     position: absolute;
@@ -202,7 +207,9 @@
     left: 447px;
     top: 488px;    
     background: #FFFFFF;
-    border: 3px solid #6B839A;    
+    border: 3px solid #6B839A;  
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: medium;  
 }
 #titulo-text {
     position: absolute;
@@ -227,6 +234,9 @@
     top: 575px;   
     background: #FFFFFF;
     border: 3px solid #6B839A;
+    resize: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: medium;
 }
 #descripcion-text {
     position: absolute;
