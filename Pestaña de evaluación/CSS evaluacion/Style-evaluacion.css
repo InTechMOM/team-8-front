@@ -53,13 +53,15 @@
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+    z-index: 1;
 }
 .evaluacion-icon {
     position: absolute;
     width: 69px;
     height: 69px;
     left: 133px;
-    top: 18px;    
+    top: 18px;   
+    z-index: 1; 
 }
 
 #analisis-text {
@@ -137,7 +139,7 @@
     width: 321px;
     height: 31px;
     left: 447px;
-    top: 192px;    
+    top: 207px;    
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 400;
@@ -161,7 +163,7 @@
     width: 321px;
     height: 31px;
     left: 447px;
-    top: 278px;   
+    top: 293px;   
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 400;
@@ -184,7 +186,7 @@
     width: 207px;
     height: 31px;
     left: 447px;
-    top: 360px;
+    top: 375px;
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 400;
@@ -207,7 +209,7 @@
     width: 145px;
     height: 31px;
     left: 445px;
-    top: 442px;   
+    top: 457px;   
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 400;
@@ -231,7 +233,7 @@
     width: 224.31px;
     height: 31px;
     left: 445px;
-    top: 528px;   
+    top: 543px;   
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 400;
@@ -314,3 +316,4 @@ h6 {
     left: 1309px;
     top: 64px;
 }
+
