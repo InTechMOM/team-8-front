@@ -15,8 +15,8 @@
                 <label id="informacion-text">Información</label>
                 <button type="image"> <img src="../iconos/informacion.png" class="informacion-icon" alt="informacion icono"></button>
             <div class="pestaña">
-                <label id="evaluacion-text">Evaluación</label>
-                <button type="image"><img src="../iconos/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono"></button>
+                <label id="evaluacion-text" onclick="redirigirevaluacion()">Evaluación</label>
+                <button type="image" onclick="redirigirevaluacion()"><img src="../iconos/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono"></button>
             </div>
                 <label id="analisis-text">Análisis</label>
                 <button type="image"><img src="../iconos/analisis.png" class="analisis-icon" alt="analisis icono"></button>
@@ -50,5 +50,6 @@ GRUPAL">
             <input type="submit" id="guardar-info-button" value="GUARDAR 
 INFORMACIÓN">
         </form>
+        <script src="JS-informacion/app-informacion.js"></script>
     </body>
 </html>
