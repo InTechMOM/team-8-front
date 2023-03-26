@@ -11,44 +11,43 @@
     <body>
         <div class="menu-box-izq">
                 <button type="image"> <img src="iconos/edvisto logo.png" class="edvisto-icon"> </button>
-            <div>
-                <button type="image"> <img src="iconos/informacion.png" class="informacion-icon" alt="informacion icono"></button>
-                <p id="informacion-text">Información</p>
-            </div>
+            
+                <button type="image"><img src="iconos/informacion.png" class="informacion-icon" alt="informacion icono"></button>
+                <label for="informacion" id="informacion-text">Información</label>
+            
             <div class="pestaña">
                 <button type="image"><img src="iconos/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono"></button>
-                <p id="evaluacion-text">Evaluación</p>
+                <label for="evaluacion" id="evaluacion-text">Evaluación</label>
             </div>
-            <div>
                 <button type="image"><img src="iconos/analisis.png" class="analisis-icon" alt="analisis icono"></button>
-                <p id="analisis-text">Análisis</p>
-            </div>
-            <div>
+                <label for="analisis" id="analisis-text">Análisis</label>
+
                 <button type="image"><img src="iconos/informe.png" class="informe-icon" alt="informe icono"></button>
-                <p id="informe-text">Informe</p>
-            </div>
+                <label for="informe" id="informe-text">Informe</label>
+            
         </div>
         <button type="image"> <img src="iconos/rojo.png" class="mayor-que-logo" alt="mayor que"></button> 
         <h6 id="sup-izq">EVALUACIÓN/CARGAR VIDEOPROYECTO</h6> 
         <h6 id="sup-der">NOMBRE, APELLIDO</h6>
         <button type="img"> <img src="iconos/usuario.png" class="usuario-logo" alt="usuario"></button>
         <button type="img"> <img src="iconos/configuraciones.png" class="config-logo" alt="config-logo"></button>
+
         <form>
             <label for="link-text" id="link-text">CARGAR LINK DE YOUTUBE</label>
-            <input type="url" id="link-input" name="link">
+            <input type="url" id="link-input" name="link" required>
 
             <label for="nombre-text" id="nombre-text">NOMBRE Y APELLIDO DEL LIDER DEL PROYECTO</label>
-            <input type="text" id="nombre-input" name="nombre">
+            <input type="text" id="nombre-input" name="nombre" required>
 
             <label for="email-text" id="email-text">EMAIL DEL LIDER DEL PROYECTO</label>
-            <input type="email" id="email-input" name="email">
+            <input type="email" id="email-input" name="email" required>
 
             <label for="titulo-text" id="titulo-text">TÍTULO DEL PROYECTO</label>
-            <input type="text" id="titulo-input" name="titulo">
+            <input type="text" id="titulo-input" name="titulo" required>
 
             <label for="descripcion" id="descripcion-text">DESCRIPCIÓN DEL PROYECTO</label>
-            <textarea type="text" id="descripcion-input" name="descripcion"> </textarea>
-            
+            <textarea type="text" id="descripcion-input" name="descripcion" required> </textarea>
+
             <button type="image"><img src="iconos/camara.png" class="camara" alt="camara icono"></button>
             <input type="submit" id="guardar" value="GUARDAR 
 INFORMACIÓN">
