@@ -6,31 +6,32 @@
         <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">">
-        <link rel="stylesheet" href="CSS evaluacion/Style-evaluacion.css">
+        <link rel="stylesheet" href="./style/general.css">
+        <link rel="stylesheet" href="./style/evaluacion.css">
     </head>
     <body>
         <div class="menu-box-izq">
-                <input type="image" src="../iconos/edvisto-logo.png" class="edvisto-icon">
+                <input type="image" src="./img/icon/edvisto-logo.png" class="edvisto-icon">
             
-                <input type="image" src="../iconos/informacion.png" class="informacion-icon" alt="informacion icono" onclick="redirigirinformacion()">
+                <input type="image" src="./img/icon/informacion.png" class="informacion-icon" alt="informacion icono" onclick="redirigirinformacion()">
                 <label for="informacion" id="informacion-text" onclick="redirigirinformacion()">Información</label>
             
             <div class="pestaña">
-                <input  type="image" src="../iconos/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono">
+                <input  type="image" src="./img/icon/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono">
                 <label for="evaluacion" id="evaluacion-text">Evaluación</label>
             </div>
-                <input type="image" src="../iconos/analisis.png" class="analisis-icon" alt="analisis icono">
+                <input type="image" src="./img/icon/analisis.png" class="analisis-icon" alt="analisis icono">
                 <label for="analisis" id="analisis-text">Análisis</label>
 
-                <input type="image" src="../iconos/informe.png" class="informe-icon" alt="informe icono">
+                <input type="image" src="./img/icon/informe.png" class="informe-icon" alt="informe icono">
                 <label for="informe" id="informe-text">Informe</label>
             
         </div>
-        <input type="image" src="../iconos/mayor-que.png" class="mayor-que-logo" alt="mayor que">
+        <input type="image" src="./img/icon/mayor-que.png" class="mayor-que-logo" alt="mayor que">
         <h6 id="sup-izq">EVALUACIÓN/CARGAR VIDEOPROYECTO</h6> 
         <h6 id="sup-der">NOMBRE, APELLIDO</h6>
-        <input type="image" src="../iconos/usuario.png" class="usuario-logo" alt="usuario">
-        <input type="image" src="../iconos/configuraciones.png" class="config-logo" alt="config-logo">
+        <input type="image" src="./img/icon/usuario.png" class="usuario-logo" alt="usuario">
+        <input type="image" src="./img/icon/configuraciones.png" class="config-logo" alt="config-logo">
 
         <form>
             <label for="link-text" id="link-text">CARGAR LINK DE YOUTUBE</label>
@@ -48,10 +49,10 @@
             <label for="descripcion" id="descripcion-text">DESCRIPCIÓN DEL PROYECTO</label>
             <textarea type="text" id="descripcion-input" name="descripcion" required> </textarea>
 
-            <input type="image" src="../iconos/camara.png" class="camara" alt="camara icono">
+            <input type="image" src="./img/icon/camara.png" class="camara" alt="camara icono">
             <input type="submit" id="guardar" value="GUARDAR 
 INFORMACIÓN">
         </form>
-        <script src="JS-evaluacion/app-evaluacion.js"></script>
+        <script src="./main/evaluacion.js"></script>
     </body>
 </html>
