@@ -6,6 +6,14 @@
     top: 1px;
     background: #2E4154;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: -2;
+}
+.informacion-icon {
+    position: absolute;
+    width: 68px;
+    height: 69px;
+    left: 59px;
+    top: 213px;
 }
 
 #informacion-text {
@@ -43,7 +51,8 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;  
-    color: #FFFFFF;    
+    color: #FFFFFF;   
+    z-index: 2;
 }
 .evaluacion-icon {
     position: absolute;
@@ -89,13 +98,7 @@
     text-align: center;
     color: #FFFFFF;
 }
-.informacion-icon {
-    position: absolute;
-    width: 68px;
-    height: 69px;
-    left: 59px;
-    top: 213px;
-}
+
 .informe-icon {
     position: absolute;
     width: 69px;
