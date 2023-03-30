@@ -149,12 +149,7 @@
     border-radius: 20px;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-h6 {
-    text-align: left;
-    display: inline-block;
-    margin-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .camara {
     position: absolute;
@@ -163,52 +158,5 @@ h6 {
     left: 1027px;
     top: 580px;
 }
-#sup-izq {
-    position: absolute;
-    width: 321px;
-    height: 31px;
-    left: 273px;
-    top: 42px;
-    font-family: 'Barlow Semi Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #7A7399;    
-}
-#sup-der {
-    position: absolute;
-    width: 130px;
-    height: 31px;
-    left: 1100px;
-    top: 42px;
-    font-family: 'Barlow Semi Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center; 
-    color: #7A7399;
-}
-.mayor-que-logo {
-    position: absolute;
-    width: 33px;
-    height: 33px;
-    left: 254px;
-    top: 73px;
-}
-.usuario-logo {
-    position: absolute;
-    width: 50.5px;
-    height: 50.5px;
-    left: 1258px;
-    top: 65px;
-}
-.config-logo {
-    position: absolute;
-    width: 53px;
-    height: 53px;
-    left: 1309px;
-    top: 64px;
-}
+
 
