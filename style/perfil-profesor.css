@@ -1,0 +1,106 @@
+#pestanaUno {
+    position: absolute;
+    width: 257px;
+    height: 142px;
+    left: 0px;
+    top: 194px;
+    border-radius: 0px 30px 30px 0px;
+    background: #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.informacion-icon {
+    position: absolute;
+    width: 68px;
+    height: 69px;
+    left: 132px;
+    top: 22px;    
+}
+#informacion-text {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 95px;
+    top: 100px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.alumnos-logo {
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 446px;
+    top: 394px;
+}
+#lista-alumnos {
+    position: absolute;
+    width: 254px;
+    height: 85px;
+    left: 380px;
+    top: 541px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.videopro-logo {
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 756px;
+    top: 394px;
+}
+#ver-proyectos {
+    position: absolute;
+    width: 254px;
+    height: 85px;
+    left: 690px;
+    top: 541px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.vidcal-logo {
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 1066px;
+    top: 394px;    
+}
+#ver-calificados {
+    position: absolute;
+    width: 254px;
+    height: 85px;
+    left: 1000px;
+    top: 541px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;    
+}
