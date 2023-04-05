@@ -1,57 +1,28 @@
 <!DOCTYPE html>
 <html>
-     <head>
+    <head>
         <meta charset="UTF-8">
-        <title>Evaluación</title>
+        <title>Ingreso</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style/general.css">
-        <link rel="stylesheet" href="./style/evaluacion.css">
+        <link rel="stylesheet" href="./style/Ingreso.css">
     </head>
     <body>
-        <div class="menu-box-izq">
-                <input type="image" src="./img/icon/edvisto-logo.png" class="edvisto-icon">
-                
-                <input type="image" src="./img/icon/informacion.png" class="informacion-icon" alt="informacion icono" onclick="redirigirinformacion()">
-                <label for="informacion" id="informacion-text" onclick="redirigirinformacion()">Información</label>
-                <div id="pestanaDos">
-                <input  type="image" src="./img/icon/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono">
-                <label for="evaluacion" id="evaluacion-text">Evaluación</label>
-                </div>
-                <input type="image" src="./img/icon/analisis.png" class="analisis-icon" alt="analisis icono">
-                <label for="analisis" id="analisis-text">Análisis</label>
-
-                <input type="image" src="./img/icon/informe.png" class="informe-icon" alt="informe icono">
-                <label for="informe" id="informe-text">Informe</label>
-            
-        </div>
-        <input type="image" src="./img/icon/mayor-que.png" class="mayor-que-logo" alt="mayor que">
-        <h6 id="sup-izq">EVALUACIÓN/CARGAR VIDEOPROYECTO</h6> 
-        <h6 id="sup-der">NOMBRE, APELLIDO</h6>
-        <input type="image" src="./img/icon/usuario.png" class="usuario-logo" alt="usuario">
-        <input type="image" src="./img/icon/configuraciones.png" class="config-logo" alt="config-logo">
-
+        <input  type="image" src="./img/icon/edvisto-logo.png" class="edvisto-icon" alt="edvisto-icono">
         <form>
-            <label for="link-text" id="link-text">CARGAR LINK DE YOUTUBE</label>
-            <input type="url" id="link-input" name="link" required>
-
-            <label for="nombre-text" id="nombre-text">NOMBRE Y APELLIDO DEL LIDER DEL PROYECTO</label>
-            <input type="text" id="nombre-input" name="nombre" required>
-
-            <label for="email-text" id="email-text">EMAIL DEL LIDER DEL PROYECTO</label>
-            <input type="email" id="email-input" name="email" required>
-
-            <label for="titulo-text" id="titulo-text">TÍTULO DEL PROYECTO</label>
-            <input type="text" id="titulo-input" name="titulo" required>
-
-            <label for="descripcion" id="descripcion-text">DESCRIPCIÓN DEL PROYECTO</label>
-            <textarea type="text" id="descripcion-input" name="descripcion" required> </textarea>
-
-            <input type="image" src="./img/icon/camara.png" class="camara" alt="camara icono">
-            <input type="submit" id="guardar" value="GUARDAR 
-INFORMACIÓN">
+        <label for="bienvenido" id="bienvenido">¡BIENVENIDO!</label>
+        <input type="email" id="email-input" placeholder="E-mail" required>
+        <div class="profesor-option">
+        <input type="radio" id="profesor" name="persona" value="profesor">
+        <label for="profesor">Profesor</label>
+        </div>
+        <div class="estudiante-option">
+        <input type="radio" id="estudiante" name="persona" value="estudiante">
+        <label for="estudiante">Estudiante</label>
+        </div>
+        <input type="submit" id="ingresar" value="INGRESAR">
         </form>
-        <script src="./main/evaluacion.js"></script>
     </body>
+
 </html>
