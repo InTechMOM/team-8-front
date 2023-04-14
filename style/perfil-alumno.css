@@ -20,6 +20,7 @@
     border: 3px solid #6B839A;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: medium;
+    font-style: italic;
 }
 #link-text {
     position: absolute;
@@ -32,7 +33,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;   
-    color: #6B839A;    
+    color: #6B839A;   
 }
 #nombre-input { /*input texto "nombre del lider del proyecto"*/
     box-sizing: border-box;
@@ -45,6 +46,7 @@
     border: 3px solid #6B839A;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: medium;
+    font-style: italic;
 }
 #nombre-text {
     position: absolute;
@@ -70,6 +72,7 @@
     border: 3px solid #6B839A;  
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: medium;
+    font-style: italic;
 }
 #email-text {
     position: absolute;
@@ -94,7 +97,8 @@
     background: #FFFFFF;
     border: 3px solid #6B839A;  
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: medium;  
+    font-size: medium; 
+    font-style: italic; 
 }
 #titulo-text {
     position: absolute;
