@@ -20,7 +20,6 @@
     border: 3px solid #6B839A;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: medium;
-    font-style: italic;
 }
 #link-text {
     position: absolute;
@@ -34,6 +33,7 @@
     font-size: 16px;
     line-height: 19px;   
     color: #6B839A;   
+    font-weight: bolder;
 }
 #nombre-input { /*input texto "nombre del lider del proyecto"*/
     box-sizing: border-box;
@@ -46,7 +46,6 @@
     border: 3px solid #6B839A;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: medium;
-    font-style: italic;
 }
 #nombre-text {
     position: absolute;
@@ -60,6 +59,7 @@
     font-size: 16px;
     line-height: 19px;   
     color: #7A7399;
+    font-weight: bolder;
 }
 #email-input { /*input texto "email del lider del proyecto"*/
     box-sizing: border-box;
@@ -72,7 +72,6 @@
     border: 3px solid #6B839A;  
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: medium;
-    font-style: italic;
 }
 #email-text {
     position: absolute;
@@ -86,6 +85,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #7A7399;
+    font-weight: bolder;
 }
 #titulo-input {/*input texto "titulo del video"*/
     box-sizing: border-box;
@@ -98,7 +98,6 @@
     border: 3px solid #6B839A;  
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: medium; 
-    font-style: italic; 
 }
 #titulo-text {
     position: absolute;
@@ -112,7 +111,8 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;   
-    color: #7A7399;    
+    color: #7A7399;  
+    font-weight: bolder;  
 }
 #descripcion-input { /*input texto "descripcion del video"*/
     box-sizing: border-box;
@@ -139,6 +139,7 @@
     font-size: 16px;
     line-height: 19px;   
     color: #7A7399;
+    font-weight: bolder;
 }
 #guardar { /*input enviar*/
     position: absolute;
@@ -193,4 +194,9 @@
     height: 69px;
     left: 133px;
     top: 15px;
+}
+::placeholder {
+    font-style: italic;
+    font-family: 'Barlow Semi Condensed';
+    color: #d3d1d8;
 }
