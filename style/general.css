@@ -62,34 +62,12 @@
     top: 388px;
 }
 
-#analisis-text {
-    position: absolute;
-    width: 102px;
-    height: 31px;
-    left: 41px;
-    top: 643px;
-    font-family: 'Barlow Semi Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-}
-.analisis-icon {
-    position: absolute;
-    width: 68px;
-    height: 69px;
-    left: 58px;
-    top: 563px;
-}
-
 #informe-text {
     position: absolute;
     width: 102px;
     height: 31px;
-    left: 41px;
-    top: 818px;
+    left: 44px;
+    top: 643px;
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 400;
@@ -103,8 +81,8 @@
     position: absolute;
     width: 69px;
     height: 69px;
-    left: 58px;
-    top: 738px;
+    left: 61px;
+    top: 563px;    
 }
 h6 {
     text-align: left;

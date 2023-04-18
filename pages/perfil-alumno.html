@@ -2,7 +2,7 @@
 <html>
      <head>
         <meta charset="UTF-8">
-        <title>Evaluación</title>
+        <title>Cargar Videoproyecto</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
@@ -14,38 +14,36 @@
                 <input type="image" src="../img/icon/edvisto-logo.png" class="edvisto-icon">
                 
                 <input type="image" src="../img/icon/informacion.png" class="informacion-icon" alt="informacion icono" onclick="redirigirinformacion()">
-                <label for="informacion" id="informacion-text" onclick="redirigirinformacion()">Información</label>
-                <div id="pestanaDos">
+                <label for="informacion" id="informacion-text"><strong>Información</strong></label>
+                <div id="pestanaEvaluacion">
                 <input  type="image" src="../img/icon/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono">
-                <label for="evaluacion" id="evaluacion-text">Evaluación</label>
+                <label for="evaluacion" id="evaluacion-text"><strong>Evaluación</strong></label>
                 </div>
-                <input type="image" src="../img/icon/analisis.png" class="analisis-icon" alt="analisis icono">
-                <label for="analisis" id="analisis-text">Análisis</label>
 
                 <input type="image" src="../img/icon/informe.png" class="informe-icon" alt="informe icono">
-                <label for="informe" id="informe-text">Informe</label>
+                <label for="informe" id="informe-text"><strong>Informe</strong></label>
             
         </div>
         <input type="image" src="../img/icon/mayor-que.png" class="mayor-que-logo" alt="mayor que">
-        <h6 id="sup-izq">EVALUACIÓN/CARGAR VIDEOPROYECTO</h6> 
-        <h6 id="sup-der">NOMBRE, APELLIDO</h6>
+        <h6 id="sup-izq"><strong>EVALUACIÓN/CARGAR VIDEOPROYECTO </strong></h6> 
+        <h6 id="sup-der"><strong>NOMBRE, APELLIDO</strong></h6>
         <input type="image" src="../img/icon/usuario.png" class="usuario-logo" alt="usuario">
         <input type="image" src="../img/icon/configuraciones.png" class="config-logo" alt="config-logo">
 
         <form>
-            <label for="link-text" id="link-text">CARGAR LINK DE YOUTUBE</label>
+            <label for="link-text" id="link-text"> <strong>CARGAR LINK DE YOUTUBE</strong></label>
             <input type="url" id="link-input" name="link" required placeholder="www.youtube.com">
 
-            <label for="nombre-text" id="nombre-text">NOMBRE Y APELLIDO DEL LIDER DEL PROYECTO</label>
+            <label for="nombre-text" id="nombre-text"> <strong>NOMBRE Y APELLIDO DEL LIDER DEL PROYECTO</strong></label>
             <input type="text" id="nombre-input" name="nombre" required placeholder="Juan Pérez">
 
-            <label for="email-text" id="email-text">EMAIL DEL LIDER DEL PROYECTO</label>
+            <label for="email-text" id="email-text"><strong>EMAIL DEL LIDER DEL PROYECTO</strong></label>
             <input type="email" id="email-input" name="email" required placeholder="juanperez@gmail.com">
 
-            <label for="titulo-text" id="titulo-text">TÍTULO DEL PROYECTO</label>
+            <label for="titulo-text" id="titulo-text"><strong>TÍTULO DEL PROYECTO</strong></label>
             <input type="text" id="titulo-input" name="titulo" required placeholder="Título del videoproyecto">
 
-            <label for="descripcion" id="descripcion-text">DESCRIPCIÓN DEL PROYECTO</label>
+            <label for="descripcion" id="descripcion-text"> <strong>DESCRIPCIÓN DEL PROYECTO</strong></label>
             <textarea type="text" id="descripcion-input" name="descripcion" required minlength="20"> </textarea>
 
             <input type="image" src="../img/icon/camara.png" class="camara" alt="camara icono">

@@ -33,7 +33,6 @@
     font-size: 16px;
     line-height: 19px;   
     color: #6B839A;   
-    font-weight: bolder;
 }
 #nombre-input { /*input texto "nombre del lider del proyecto"*/
     box-sizing: border-box;
@@ -59,7 +58,6 @@
     font-size: 16px;
     line-height: 19px;   
     color: #7A7399;
-    font-weight: bolder;
 }
 #email-input { /*input texto "email del lider del proyecto"*/
     box-sizing: border-box;
@@ -85,7 +83,6 @@
     font-size: 16px;
     line-height: 19px;
     color: #7A7399;
-    font-weight: bolder;
 }
 #titulo-input {/*input texto "titulo del video"*/
     box-sizing: border-box;
@@ -111,8 +108,7 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;   
-    color: #7A7399;  
-    font-weight: bolder;  
+    color: #7A7399;   
 }
 #descripcion-input { /*input texto "descripcion del video"*/
     box-sizing: border-box;
@@ -139,7 +135,6 @@
     font-size: 16px;
     line-height: 19px;   
     color: #7A7399;
-    font-weight: bolder;
 }
 #guardar { /*input enviar*/
     position: absolute;
@@ -163,7 +158,7 @@
     left: 1027px;
     top: 580px;
 }
-#pestanaDos {
+#pestanaEvaluacion {
     position: absolute;
     width: 257px;
     height: 142px;
