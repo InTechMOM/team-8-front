@@ -158,37 +158,30 @@
     left: 1027px;
     top: 580px;
 }
-#pestanaEvaluacion {
+#pestanaInformacion {
     position: absolute;
     width: 257px;
     height: 142px;
     left: 0px;
-    top: 368px;
+    top: 194px;
+    border-radius: 0px 30px 30px 0px;
     background: #73CAA3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 0px 30px 30px 0px;
     z-index: -1;
 }
+.informacion-icon {
+    top: 213px;    
+    left: 132px;
+}
+#informacion-text {
+    top: 293px;
+    left: 95px;
+}
 #evaluacion-text {
-    position: absolute;
-    width: 102px;
-    height: 31px;
-    left: 116px;
-    top: 95px;
-    font-family: 'Barlow Semi Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
+    top: 270px;    
 }
 .evaluacion-icon {
-    position: absolute;
-    width: 69px;
-    height: 69px;
-    left: 133px;
-    top: 15px;
+    top: 190px;
 }
 ::placeholder {
     font-style: italic;
