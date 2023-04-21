@@ -13,7 +13,7 @@
         <div class="menu-box-izq">
                 <input type="image" src="../img/icon/edvisto-logo.png" class="edvisto-icon">
                 
-                <input type="image" src="../img/icon/informacion.png" class="informacion-icon" alt="informacion icono" onclick="redirigirinformacion()">
+                <input type="image" src="../img/icon/informacion.png" class="informacion-icon" alt="informacion icono">
                 <label for="informacion" id="informacion-text"><strong>Información</strong></label>
                 <div id="pestanaInformacion">
                 <input  type="image" src="../img/icon/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono">
@@ -32,24 +32,79 @@
 
         <form>
             <label for="link-text" id="link-text"> <strong>CARGAR LINK DE YOUTUBE</strong></label>
-            <input type="url" id="link-input" name="link" required placeholder="www.youtube.com">
+            <input type="url" id="link-input" name="link" required>
 
-            <label for="nombre-text" id="nombre-text"> <strong>NOMBRE Y APELLIDO DEL LIDER DEL PROYECTO</strong></label>
-            <input type="text" id="nombre-input" name="nombre" required placeholder="Juan Pérez">
+            <div class="criterioUno">
+                <p id="criterioUnoText">Estuve dispuesto <br> a probar cosas nuevas para que mi video fuera el mejor posible.</p>
+            </div>
+            <div id="evaluacionUno">
+                <input type="radio" id="one" name="qualifi" value="one" required>
+                <label for="one" id="one"></label>
+                <input type="radio" id="two" name="qualifi" value="two" required>
+                <label for="two" id="two"></label>
+                <input type="radio" id="three" name="qualifi" value="three" required>
+                <label for="three" id="three"></label>
+                <input type="radio" id="four" name="qualifi" value="four" required>
+                <label for="four" id="four"></label>
+                <input type="radio" id="five" name="qualifi" value="five" required>
+                <label for="five" id="five"></label>
+            </div>
 
-            <label for="email-text" id="email-text"><strong>EMAIL DEL LIDER DEL PROYECTO</strong></label>
-            <input type="email" id="email-input" name="email" required placeholder="juanperez@gmail.com">
+            <div class="criterioDos">
+                <p id="criterioDosText">Las herramientas que teníamos a nuestra disposición 
+                <br> eran fáciles de usar y nos permitieron ser muy creativos juntos.</p>
+            </div>
+            <div id="evaluacionDos">
+                <input type="radio" id="oneTwo" name="qualifiTwo" value="one" required>
+                <label for="oneTwo" id="oneTwo"></label>
+                <input type="radio" id="twoTwo" name="qualifiTwo" value="two" required>
+                <label for="twoTwo" id="twoTwo"></label>
+                <input type="radio" id="threeTwo" name="qualifiTwo" value="three" required>
+                <label for="threeTwo" id="threeTwo"></label>
+                <input type="radio" id="fourTwo" name="qualifiTwo" value="four" required>
+                <label for="fourTwo" id="fourTwo"></label>
+                <input type="radio" id="fiveTwo" name="qualifiTwo" value="five" required>
+                <label for="fiveTwo" id="fiveTwo"></label>
+            </div>
 
-            <label for="titulo-text" id="titulo-text"><strong>TÍTULO DEL PROYECTO</strong></label>
-            <input type="text" id="titulo-input" name="titulo" required placeholder="Título del videoproyecto">
+            <div class="criterioTres">
+                <p id="criterioTresText">Logré comunicar de manera 
+                    <br> clara y precisa lo que quería decir.</p>
+            </div>
+            <div id="evaluacionTres">
+                <input type="radio" id="oneThree" name="qualifiThree" value="one" required>
+                <label for="oneThree" id="oneThree"></label>
+                <input type="radio" id="twoThree" name="qualifiThree" value="two" required>
+                <label for="twoThree" id="twoThree"></label>
+                <input type="radio" id="threeThree" name="qualifiThree" value="three" required>
+                <label for="threeThree" id="threeThree"></label>
+                <input type="radio" id="fourThree" name="qualifiThree" value="four" required>
+                <label for="fourThree" id="fourThree"></label>
+                <input type="radio" id="fiveThree" name="qualifiThree" value="five" required>
+                <label for="fiveThree" id="fiveThree"></label>
+            </div>
 
-            <label for="descripcion" id="descripcion-text"> <strong>DESCRIPCIÓN DEL PROYECTO</strong></label>
-            <textarea type="text" id="descripcion-input" name="descripcion" required minlength="20"> </textarea>
+            <div class="criterioCuatro">
+                <p id="criterioCuatroText">Después de investigar mucho, nuestro videoproyecto
+                <br> quedó exactamente como lo habíamos imaginado.</p>
+            </div>
+            <div id="evaluacionCuatro">
+                <input type="radio" id="oneFour" name="qualifiFour" value="one" required>
+                <label for="oneFour" id="oneFour"></label>
+                <input type="radio" id="twoFour" name="qualifiFour" value="two" required>
+                <label for="twoFour" id="twoFour"></label>
+                <input type="radio" id="threeFour" name="qualifiFour" value="three" required>
+                <label for="threeFour" id="threeFour"></label>
+                <input type="radio" id="fourFour" name="qualifiFour" value="four" required>
+                <label for="fourFour" id="fourFour"></label>
+                <input type="radio" id="fiveFour" name="qualifiFour" value="five" required>
+                <label for="fiveFour" id="fiveFour"></label>
+            </div>
 
-            <input type="image" src="../img/icon/camara.png" class="camara" alt="camara icono">
-            <input type="submit" id="guardar" value="GUARDAR 
-INFORMACIÓN">
+            <input type="image" src="../img/icon/enviar 1.png" id="iconSubmit">
+            <input type="submit" id="btnSubmit" value="ENVIAR
+ AUTOEVALUACIÓN">
         </form>
-        <script src="../main/perfil-alumno.js"></script>
+        <script src="../JS/perfil-alumno.js"></script>
     </body>
 </html>

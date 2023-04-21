@@ -14,15 +14,16 @@
         <label for="bienvenido" id="bienvenido"><strong>¡BIENVENIDO!</strong></label>
         <input type="email" id="email-input" placeholder="E-mail" required>
         <div class="profesor-option">
-        <input type="radio" id="profesor" name="persona" value="profesor">
+        <input type="radio" id="profesor" name="persona" value="profesor" required>
         <label for="profesor"><strong>Profesor</strong></label>
         </div>
         <div class="estudiante-option">
-        <input type="radio" id="estudiante" name="persona" value="estudiante">
+        <input type="radio" id="estudiante" name="persona" value="estudiante" required>
         <label for="estudiante"><strong>Estudiante</strong></label>
         </div>
-        <input type="submit" id="ingresar" value="INGRESAR">
+        <input type="submit" id="ingresar" value="INGRESAR" onclick="functionIngresar()">
         </form>
+    <script src="./JS/app.js"></script>
     </body>
 
 </html>

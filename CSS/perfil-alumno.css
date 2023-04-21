@@ -188,3 +188,381 @@
     font-family: 'Barlow Semi Condensed';
     color: #d3d1d8;
 }
+
+/*evaluacion*/
+
+.criterioUno {
+background-color: #73CAA3;
+box-sizing: border-box;
+position: absolute;
+width: 735px;
+height: 69px;
+left: 435px;
+top: 332px;
+background: #73CAA3;
+border: 3px solid #73CAA3;
+border-radius: 20px;
+}
+#criterioUnoText {
+    position: absolute;
+    width: 658px;
+    height: 31px;
+    top: -8px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+#evaluacionUno input {
+    display: none;
+}
+#evaluacionUno label#one {
+    background-image: url(../img/icon/1verde.png);
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 574px;
+    top: 426px;
+}
+#evaluacionUno input:checked + label#one {
+    background-image: url(../img/icon/1gris.png);
+}
+
+#evaluacionUno label#two {
+    background-image: url(../img/icon/2verde.png);
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 670px;
+    top: 426px;
+}
+#evaluacionUno input:checked + label#two {
+    background-image: url(../img/icon/2gris.png);
+}
+
+#evaluacionUno label#three {
+    background-image: url(../img/icon/3verde.png);
+    top: 426px;
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 765px;
+}
+#evaluacionUno input:checked + label#three {
+    background-image: url(../img/icon/3gris.png);
+}
+
+#evaluacionUno label#four {
+    background-image: url(../img/icon/4verde.png);
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 861px;
+    top: 426px;
+}
+#evaluacionUno input:checked + label#four {
+    background-image: url(../img/icon/4gris.png);
+}
+
+#evaluacionUno label#five {
+    background-image: url(../img/icon/5verde.png);
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 957px;
+    top: 426px
+}
+#evaluacionUno input:checked + label#five {
+    background-image: url(../img/icon/5gris.png);
+}
+
+/*criterio dos*/
+#evaluacionDos input {
+    display: none;
+ }
+.criterioDos {
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 69px;
+    left: 435px;
+    top: 527px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    border-radius: 20px;
+}
+#criterioDosText {
+    position: absolute;
+    width: 658px;
+    height: 31px;
+    top: -8px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#evaluacionDos label#oneTwo {
+    background-image: url(../img/icon/1verde.png);
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 574px;
+    top: 621px;
+}
+#evaluacionDos input:checked + label#oneTwo {
+    background-image: url(../img/icon/1gris.png);
+}
+
+#evaluacionDos label#twoTwo {
+    background-image: url(../img/icon/2verde.png);
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 670px;
+    top: 621px;
+}
+#evaluacionDos input:checked + label#twoTwo {
+    background-image: url(../img/icon/2gris.png);
+}
+
+#evaluacionDos label#threeTwo {
+    background-image: url(../img/icon/3verde.png);
+    top: 621px;
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 765px;
+}
+#evaluacionDos input:checked + label#threeTwo {
+    background-image: url(../img/icon/3gris.png);
+}
+
+#evaluacionDos label#fourTwo {
+    background-image: url(../img/icon/4verde.png);
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 861px;
+    top: 621px;
+}
+#evaluacionDos input:checked + label#fourTwo {
+    background-image: url(../img/icon/4gris.png);
+}
+
+#evaluacionDos label#fiveTwo {
+    background-image: url(../img/icon/5verde.png);
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 957px;
+    top: 621px
+}
+#evaluacionDos input:checked + label#fiveTwo {
+    background-image: url(../img/icon/5gris.png);
+}
+ 
+/*criterio tres*/
+
+#evaluacionTres input {
+    display: none;
+ }
+.criterioTres {
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 69px;
+    left: 435px;
+    top: 739px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    border-radius: 20px;
+}
+#criterioTresText {
+    position: absolute;
+    width: 658px;
+    height: 31px;
+    top: -8px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#evaluacionTres label#oneThree {
+    background-image: url(../img/icon/1verde.png);
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 574px;
+    top: 833px;
+}
+#evaluacionTres input:checked + label#oneThree {
+    background-image: url(../img/icon/1gris.png);
+}
+
+#evaluacionTres label#twoThree {
+    background-image: url(../img/icon/2verde.png);
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 670px;
+    top: 833px;
+}
+#evaluacionTres input:checked + label#twoThree {
+    background-image: url(../img/icon/2gris.png);
+}
+
+#evaluacionTres label#threeThree {
+    background-image: url(../img/icon/3verde.png);
+    top: 833px;
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 765px;
+}
+#evaluacionTres input:checked + label#threeThree {
+    background-image: url(../img/icon/3gris.png);
+}
+
+#evaluacionTres label#fourThree {
+    background-image: url(../img/icon/4verde.png);
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 861px;
+    top: 833px;
+}
+#evaluacionTres input:checked + label#fourThree {
+    background-image: url(../img/icon/4gris.png);
+}
+
+#evaluacionTres label#fiveThree {
+    background-image: url(../img/icon/5verde.png);
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 957px;
+    top: 833px
+}
+#evaluacionTres input:checked + label#fiveThree {
+    background-image: url(../img/icon/5gris.png);
+}
+
+/*criterio cuatro*/
+
+#evaluacionCuatro input {
+    display: none;
+ }
+.criterioCuatro {
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 69px;
+    left: 435px;
+    top: 951px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    border-radius: 20px;
+}
+#criterioCuatroText {
+    position: absolute;
+    width: 658px;
+    height: 31px;
+    top: -8px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#evaluacionCuatro label#oneFour {
+    background-image: url(../img/icon/1verde.png);
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 574px;
+    top: 1045px;
+}
+#evaluacionCuatro input:checked + label#oneFour {
+    background-image: url(../img/icon/1gris.png);
+}
+
+#evaluacionCuatro label#twoFour {
+    background-image: url(../img/icon/2verde.png);
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 670px;
+    top: 1045px;
+}
+#evaluacionCuatro input:checked + label#twoFour {
+    background-image: url(../img/icon/2gris.png);
+}
+
+#evaluacionCuatro label#threeFour {
+    background-image: url(../img/icon/3verde.png);
+    top: 1045px;
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 765px;
+}
+#evaluacionCuatro input:checked + label#threeFour {
+    background-image: url(../img/icon/3gris.png);
+}
+
+#evaluacionCuatro label#fourFour {
+    background-image: url(../img/icon/4verde.png);
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 861px;
+    top: 1045px;
+}
+#evaluacionCuatro input:checked + label#fourFour {
+    background-image: url(../img/icon/4gris.png);
+}
+
+#evaluacionCuatro label#fiveFour {
+    background-image: url(../img/icon/5verde.png);
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 957px;
+    top: 1045px
+}
+#evaluacionCuatro input:checked + label#fiveFour {
+    background-image: url(../img/icon/5gris.png);
+}
+
+/*enviar*/
+#iconSubmit {
+    position: absolute;
+    width: 126px;
+    height: 126px;
+    left: 742px;
+    top: 1210px;    
+}
+#btnSubmit {
+    position: absolute;
+    width: 163px;
+    height: 58px;
+    left: 723px;
+    top: 1355px;
+    background: #6B839A;
+    border: 3px solid #6B839A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
