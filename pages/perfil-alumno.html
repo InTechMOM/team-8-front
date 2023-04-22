@@ -2,7 +2,7 @@
 <html>
      <head>
         <meta charset="UTF-8">
-        <title>Cargar Videoproyecto</title>
+        <title>Autoevaluación</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
@@ -13,9 +13,7 @@
         <div class="menu-box-izq">
                 <input type="image" src="../img/icon/edvisto-logo.png" class="edvisto-icon">
                 
-                <input type="image" src="../img/icon/informacion.png" class="informacion-icon" alt="informacion icono">
-                <label for="informacion" id="informacion-text"><strong>Información</strong></label>
-                <div id="pestanaInformacion">
+                <div id="pestanaEvaluacion">
                 <input  type="image" src="../img/icon/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono">
                 <label for="evaluacion" id="evaluacion-text"><strong>Evaluación</strong></label>
                 </div>
@@ -24,11 +22,8 @@
                 <label for="informe" id="informe-text"><strong>Informe</strong></label>
             
         </div>
-        <input type="image" src="../img/icon/mayor-que.png" class="mayor-que-logo" alt="mayor que">
-        <h6 id="sup-izq"><strong>EVALUACIÓN/CARGAR VIDEOPROYECTO </strong></h6> 
-        <h6 id="sup-der"><strong>NOMBRE, APELLIDO</strong></h6>
-        <input type="image" src="../img/icon/usuario.png" class="usuario-logo" alt="usuario">
-        <input type="image" src="../img/icon/configuraciones.png" class="config-logo" alt="config-logo">
+        <input type="image" src="../img/icon/mayor que verde.png" class="mayor-que-logo" alt="mayor que">
+        <h6 id="sup-izq"><strong>EVALUACIÓN</strong></h6> 
 
         <form>
             <label for="link-text" id="link-text"> <strong>CARGAR LINK DE YOUTUBE</strong></label>
@@ -38,6 +33,8 @@
                 <p id="criterioUnoText">Estuve dispuesto <br> a probar cosas nuevas para que mi video fuera el mejor posible.</p>
             </div>
             <div id="evaluacionUno">
+                <span id="criUnoIn">Muy insatisfecho</span>
+                <span id="criUnoSa">Muy satisfecho</span>
                 <input type="radio" id="one" name="qualifi" value="one" required>
                 <label for="one" id="one"></label>
                 <input type="radio" id="two" name="qualifi" value="two" required>
@@ -55,6 +52,8 @@
                 <br> eran fáciles de usar y nos permitieron ser muy creativos juntos.</p>
             </div>
             <div id="evaluacionDos">
+                <span id="criDosIn">Muy insatisfecho</span>
+                <span id="criDosSa">Muy satisfecho</span>
                 <input type="radio" id="oneTwo" name="qualifiTwo" value="one" required>
                 <label for="oneTwo" id="oneTwo"></label>
                 <input type="radio" id="twoTwo" name="qualifiTwo" value="two" required>
@@ -72,6 +71,8 @@
                     <br> clara y precisa lo que quería decir.</p>
             </div>
             <div id="evaluacionTres">
+                <span id="criTresIn">Muy insatisfecho</span>
+                <span id="criTresSa">Muy satisfecho</span>
                 <input type="radio" id="oneThree" name="qualifiThree" value="one" required>
                 <label for="oneThree" id="oneThree"></label>
                 <input type="radio" id="twoThree" name="qualifiThree" value="two" required>
@@ -89,6 +90,8 @@
                 <br> quedó exactamente como lo habíamos imaginado.</p>
             </div>
             <div id="evaluacionCuatro">
+                <span id="criCuatroIn">Muy insatisfecho</span>
+                <span id="criCuatroSa">Muy satisfecho</span>
                 <input type="radio" id="oneFour" name="qualifiFour" value="one" required>
                 <label for="oneFour" id="oneFour"></label>
                 <input type="radio" id="twoFour" name="qualifiFour" value="two" required>
