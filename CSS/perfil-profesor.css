@@ -1,3 +1,6 @@
+.menu-box-izq {
+    height: 2347px;
+}
 #pestanaInformacion {
     position: absolute;
     width: 257px;
@@ -16,69 +19,489 @@
     left: 95px;
     top: 100px;
 }
-.alumnos-logo {
+#emailText {
     position: absolute;
-    width: 122px;
-    height: 122px;
-    left: 446px;
-    top: 394px;
-}
-#lista-alumnos {
-    position: absolute;
-    width: 254px;
-    height: 85px;
-    left: 380px;
-    top: 541px;
-    background: #73CAA3;
-    border: 3px solid #73CAA3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    width: 321px;
+    height: 31px;
+    left: 459px;
+    top: 195px;
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6B839A;    
+}
+#emailSelect {
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 44px;
+    left: 459px;
+    top: 226px;
+    background: #FFFFFF;
+    border: 3px solid #6B839A;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6B839A;
+}
+img {
+    position: absolute;
+    width: 360px;
+    height: 261px;
+    left: 648px;
+    top: 341px;
+}
+span {
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
     text-align: center;
-    color: #FFFFFF;    
+    color: #6B839A;    
 }
-.videopro-logo {
+/*evaluacion criterio uno*/
+
+.criterioUno {
+    box-sizing: border-box;
     position: absolute;
-    width: 122px;
-    height: 122px;
-    left: 756px;
-    top: 394px;
-}
-#ver-proyectos {
-    position: absolute;
-    width: 254px;
-    height: 85px;
-    left: 690px;
-    top: 541px;
-    background: #73CAA3;
-    border: 3px solid #73CAA3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 733.01px;
+    height: 69px;
+    left: 462.99px;
+    top: 673px;
+    background: #6B839A;
+    border: 3px solid #6B839A;
     border-radius: 20px;
+}
+#criterioUnoText {
+    position: absolute;
+    width: 656.21px;
+    height: 31px;
+    top: -8px;
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
     text-align: center;
     color: #FFFFFF;
+    left: 50px;
 }
-.vidcal-logo {
+#criUnoIn {
     position: absolute;
-    width: 122px;
-    height: 122px;
-    left: 1066px;
-    top: 394px;    
+    width: 136.63px;
+    height: 31px;
+    left: 570.7px;
+    top: 849px; 
 }
-#ver-calificados {
+#criUnoSa {
     position: absolute;
-    width: 254px;
-    height: 85px;
-    left: 1000px;
-    top: 541px;
+    width: 136.63px;
+    height: 31px;
+    left: 953.66px;
+    top: 849px;    
+}
+#evaluacionUno input {
+    display: none;
+}
+#evaluacionUno label#one {
+    background-image: url(../img/icon/1gris.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 601.62px;
+    top: 766px;    
+}
+#evaluacionUno input:checked + label#one {
+    background-image: url(../img/icon/1verde.png);
+}
+
+#evaluacionUno label#two {
+    background-image: url(../img/icon/2gris.png);
+    position: absolute;
+    width: 76.79px;
+    height: 76px;
+    left: 696.36px;
+    top: 766px;
+}
+#evaluacionUno input:checked + label#two {
+    background-image: url(../img/icon/2verde.png);
+}
+
+#evaluacionUno label#three {
+    background-image: url(../img/icon/3gris.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 792.1px;
+    top: 766px;
+}
+#evaluacionUno input:checked + label#three {
+    background-image: url(../img/icon/3verde.png);
+}
+
+#evaluacionUno label#four {
+    background-image: url(../img/icon/4gris.png);
+    position: absolute;
+    width: 76.79px;
+    height: 76px;
+    left: 885.84px;
+    top: 766px;
+}
+#evaluacionUno input:checked + label#four {
+    background-image: url(../img/icon/4verde.png);
+}
+
+#evaluacionUno label#five {
+    background-image: url(../img/icon/5gris.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 983.58px;
+    top: 766px;
+}
+#evaluacionUno input:checked + label#five {
+    background-image: url(../img/icon/5verde.png);
+}
+
+/*CRITERIO DOS*/
+
+.criterioDos {
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 69px;
+    left: 463px;
+    top: 910px;
+    background: #6B839A;
+    border: 3px solid #6B839A;
+    border-radius: 20px;
+}
+#criterioDosText {
+    position: absolute;
+    width: 656.21px;
+    height: 31px;
+    top: -8px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    left: 50px;
+}
+#criDosIn {
+    position: absolute;
+    width: 137px;
+    height: 31px;
+    left: 571px;
+    top: 1086px;
+}
+#criDosSa {
+    position: absolute;
+    width: 137px;
+    height: 31px;
+    left: 955px;
+    top: 1086px;   
+}
+#evaluacionDos input {
+    display: none;
+}
+#evaluacionDos label#oneTwo {
+    background-image: url(../img/icon/1gris.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 602px;
+    top: 1003px;   
+}
+#evaluacionDos input:checked + label#oneTwo {
+    background-image: url(../img/icon/1verde.png);
+}
+
+#evaluacionDos label#twoTwo {
+    background-image: url(../img/icon/2gris.png);
+    position: absolute;
+    width: 77px;
+    height: 76px;
+    left: 697px;
+    top: 1003px;
+}
+#evaluacionDos input:checked + label#twoTwo {
+    background-image: url(../img/icon/2verde.png);
+}
+
+#evaluacionDos label#threeTwo {
+    background-image: url(../img/icon/3gris.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 793px;
+    top: 1003px;
+}
+#evaluacionDos input:checked + label#threeTwo {
+    background-image: url(../img/icon/3verde.png);
+}
+
+#evaluacionDos label#fourTwo {
+    background-image: url(../img/icon/4gris.png);
+    position: absolute;
+    width: 77px;
+    height: 76px;
+    left: 887px;
+    top: 1003px;
+}
+#evaluacionDos input:checked + label#fourTwo {
+    background-image: url(../img/icon/4verde.png);
+}
+
+#evaluacionDos label#fiveTwo {
+    background-image: url(../img/icon/5gris.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 985px;
+    top: 1003px;
+}
+#evaluacionDos input:checked + label#fiveTwo {
+    background-image: url(../img/icon/5verde.png);
+}
+
+/*CRITERIO TRES*/
+
+.criterioTres {
+    box-sizing: border-box;
+    position: absolute;
+    width: 733.01px;
+    height: 69px;
+    left: 461px;
+    top: 1149px;
+    background: #6B839A;
+    border: 3px solid #6B839A;
+    border-radius: 20px;
+}
+#criterioTresText {
+    position: absolute;
+    width: 656.21px;
+    height: 31px;
+    top: -8px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    left: 50px;
+}
+#criTresIn {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 568.71px;
+    top: 1325px;
+}
+#criTresSa {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 951.67px;
+    top: 1325px; 
+}
+#evaluacionTres input {
+    display: none;
+}
+#evaluacionTres label#oneThree {
+    background-image: url(../img/icon/1gris.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 599.62px;
+    top: 1242px;    
+}
+#evaluacionTres input:checked + label#oneThree {
+    background-image: url(../img/icon/1verde.png);
+}
+
+#evaluacionTres label#twoThree {
+    background-image: url(../img/icon/2gris.png);
+    position: absolute;
+    width: 76.79px;
+    height: 76px;
+    left: 694.37px;
+    top: 1242px;    
+}
+#evaluacionTres input:checked + label#twoThree {
+    background-image: url(../img/icon/2verde.png);
+}
+
+#evaluacionTres label#threeThree {
+    background-image: url(../img/icon/3gris.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 790.1px;
+    top: 1242px;
+}
+#evaluacionTres input:checked + label#threeThree {
+    background-image: url(../img/icon/3verde.png);
+}
+
+#evaluacionTres label#fourThree {
+    background-image: url(../img/icon/4gris.png);
+    position: absolute;
+    width: 76.79px;
+    height: 76px;
+    left: 883.85px;
+    top: 1242px;
+}
+#evaluacionTres input:checked + label#fourThree {
+    background-image: url(../img/icon/4verde.png);
+}
+
+#evaluacionTres label#fiveThree {
+    background-image: url(../img/icon/5gris.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 981.58px;
+    top: 1242px;
+}
+#evaluacionTres input:checked + label#fiveThree {
+    background-image: url(../img/icon/5verde.png);
+}
+
+#conclusionesCuadro {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 735px;
+    height: 208px;
+    left: 463px;
+    top: 1699px;
+    
+    background: #FFFFFF;
+    border: 3px solid #6B839A;
+}
+
+/*CRITERIO CUATRO*/
+ 
+.criterioCuatro {
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 69px;
+    left: 463px;
+    top: 1389px;
+    background: #6B839A;
+    border: 3px solid #6B839A;
+    border-radius: 20px;
+}
+#criterioCuatroText {
+    position: absolute;
+    width: 656.21px;
+    height: 31px;
+    top: -8px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    left: 50px;
+}
+#criCuatroIn {
+    position: absolute;
+    width: 137px;
+    height: 31px;
+    left: 571px;
+    top: 1565px;
+}
+#criCuatroSa {
+    position: absolute;
+    width: 137px;
+    height: 31px;
+    left: 955px;
+    top: 1565px;
+}
+#evaluacionCuatro input {
+    display: none;
+}
+#evaluacionCuatro label#oneFour {
+    background-image: url(../img/icon/1gris.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 602px;
+    top: 1482px;
+}
+#evaluacionCuatro input:checked + label#oneFour {
+    background-image: url(../img/icon/1verde.png);
+}
+
+#evaluacionCuatro label#twoFour {
+    background-image: url(../img/icon/2gris.png);
+    position: absolute;
+    width: 77px;
+    height: 76px;
+    left: 697px;
+    top: 1482px;    
+}
+#evaluacionCuatro input:checked + label#twoFour {
+    background-image: url(../img/icon/2verde.png);
+}
+
+#evaluacionCuatro label#threeFour {
+    background-image: url(../img/icon/3gris.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 793px;
+    top: 1482px;    
+}
+#evaluacionCuatro input:checked + label#threeFour {
+    background-image: url(../img/icon/3verde.png);
+}
+
+#evaluacionCuatro label#fourFour {
+    background-image: url(../img/icon/4gris.png);
+    position: absolute;
+    width: 77px;
+    height: 76px;
+    left: 887px;
+    top: 1482px;
+}
+#evaluacionCuatro input:checked + label#fourFour {
+    background-image: url(../img/icon/4verde.png);
+}
+
+#evaluacionCuatro label#fiveFour {
+    background-image: url(../img/icon/5gris.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 985px;
+    top: 1482px;
+}
+#evaluacionCuatro input:checked + label#fiveFour {
+    background-image: url(../img/icon/5verde.png);
+}
+
+#iconSubmit {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 764px;
+    top: 2026px;
+}
+ #btnSubmit {
+    position: absolute;
+    width: 163px;
+    height: 58px;
+    left: 747px;
+    top: 2175px;
     background: #73CAA3;
     border: 3px solid #73CAA3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -86,8 +509,31 @@
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 19px;
     text-align: center;
-    color: #FFFFFF;    
-}
+    color: #FFFFFF;
+ }
+ textarea {
+    resize:none;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6B839A;
+
+ }
+ #conclusionesText {
+    position: absolute;
+    width: 371px;
+    height: 31px;
+    left: 463px;
+    top: 1667px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7A7399;
+ }

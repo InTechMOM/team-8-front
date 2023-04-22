@@ -35,12 +35,6 @@
     color: #6B839A;   
 }
 
-::placeholder {
-    font-style: italic;
-    font-family: 'Barlow Semi Condensed';
-    color: #d3d1d8;
-}
-
 /*evaluacion criterio uno*/
 
 .criterioUno {
