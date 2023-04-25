@@ -1,4 +1,4 @@
-const correo = document.getElementById('email-input')
+const correo = document.getElementById('emailInput')
 const ingreso = document.getElementById('ingresar')
 const vercomo = document.getElementsByName('persona')
 
@@ -10,14 +10,28 @@ ingreso.addEventListener('click', (e) => {
     }
 })
 
-function functionIngresar() {
-
-    if (document.getElementById("estudiante").checked) {
-        window.location.href = "pages/perfil-alumno.html";
-    } else {
-        if(document.getElementById("profesor").checked){
-            window.location.href = "pages/perfil-profesor.html";
-        } 
+function guardar(){ //funcion para guardar y validar formulario
+    var email=document.getElementById("emailInput").value;
+    if (email=="") {
+        alert ("Ingresar E-mail");
+        document.getElementById("emailInput").focus();
+    } else{
+        console.log(email);
+        document.getElementById("emailInput").value="";
     }
+}
+function todas() { //llamar a todas las funciones
+    guardar()
+    rol()
+}
 
+function rol() { //valor y redireccion de rol
+    if (document.getElementById ('estudiante').checked) {
+        console.log ("estudiante")
+        window.location.href = "pages/perfil-alumno.html";
+    }
+    if (document.getElementById ('profesor').checked) {
+        console.log ("profesor")
+        window.location.href = "pages/perfil-profesor.html";
+    }
 }

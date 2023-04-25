@@ -22,7 +22,7 @@ body {
     text-align: center;
     color: #6B839A;
 }
-#email-input {
+#emailInput {
     position: absolute;
     width: 349px;
     height: 49px;
@@ -38,7 +38,7 @@ body {
     font-size: 20px;
     line-height: 24px;
 }
-.profesor-option {
+.profesorOption {
     position: absolute;
     width: 137px;
     height: 31px;
@@ -52,7 +52,7 @@ body {
     text-align: center;
     color: #6B839A; 
 }
-.estudiante-option {
+.estudianteOption {
     position: absolute;
     width: 137px;
     height: 31px;

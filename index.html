@@ -10,18 +10,18 @@
     </head>
     <body>
         <input  type="image" src="./img/icon/edvisto-logo.png" class="edvisto-icon" alt="edvisto-icono">
-        <form>
+        <form id="datos">
         <label for="bienvenido" id="bienvenido"><strong>¡BIENVENIDO!</strong></label>
-        <input type="email" id="email-input" placeholder="E-mail" required>
-        <div class="profesor-option">
+        <input type="email" id="emailInput" placeholder="E-mail" required>
+        <div class="profesorOption">
         <input type="radio" id="profesor" name="persona" value="profesor" required>
         <label for="profesor"><strong>Profesor</strong></label>
         </div>
-        <div class="estudiante-option">
+        <div class="estudianteOption">
         <input type="radio" id="estudiante" name="persona" value="estudiante" required>
         <label for="estudiante"><strong>Estudiante</strong></label>
         </div>
-        <input type="submit" id="ingresar" value="INGRESAR" onclick="functionIngresar()">
+        <input type="submit" id="ingresar" value="INGRESAR" onclick="todas()">
         </form>
     <script src="./JS/app.js"></script>
     </body>

@@ -9,7 +9,7 @@
 #datos {
     float: right;
 }
-#link-input { /*input "link de youtube"*/
+#linkInput { /*input "link de youtube"*/
     box-sizing: border-box;
     position: absolute;
     width: 735px;
