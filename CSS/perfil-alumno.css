@@ -78,7 +78,7 @@ border-radius: 20px;
 #evaluacionUno input {
     display: none;
 }
-#evaluacionUno label#one {
+#evaluacionUno label#oneL {
     background-image: url(../img/icon/1verde.png);
     position: absolute;
     width: 76px;
@@ -86,11 +86,11 @@ border-radius: 20px;
     left: 574px;
     top: 459px;
 }
-#evaluacionUno input:checked + label#one {
+#evaluacionUno input:checked + label#oneL {
     background-image: url(../img/icon/1gris.png);
 }
 
-#evaluacionUno label#two {
+#evaluacionUno label#twoL {
     background-image: url(../img/icon/2verde.png);
     position: absolute;
     width: 77px;
@@ -98,11 +98,11 @@ border-radius: 20px;
     left: 670px;
     top: 459px;
 }
-#evaluacionUno input:checked + label#two {
+#evaluacionUno input:checked + label#twoL {
     background-image: url(../img/icon/2gris.png);
 }
 
-#evaluacionUno label#three {
+#evaluacionUno label#threeL {
     background-image: url(../img/icon/3verde.png);
     top: 459px;
     position: absolute;
@@ -110,11 +110,11 @@ border-radius: 20px;
     height: 77px;
     left: 765px;
 }
-#evaluacionUno input:checked + label#three {
+#evaluacionUno input:checked + label#threeL {
     background-image: url(../img/icon/3gris.png);
 }
 
-#evaluacionUno label#four {
+#evaluacionUno label#fourL {
     background-image: url(../img/icon/4verde.png);
     position: absolute;
     width: 77px;
@@ -122,11 +122,11 @@ border-radius: 20px;
     left: 861px;
     top: 459px;
 }
-#evaluacionUno input:checked + label#four {
+#evaluacionUno input:checked + label#fourL {
     background-image: url(../img/icon/4gris.png);
 }
 
-#evaluacionUno label#five {
+#evaluacionUno label#fiveL {
     background-image: url(../img/icon/5verde.png);
     position: absolute;
     width: 76px;
@@ -134,7 +134,7 @@ border-radius: 20px;
     left: 957px;
     top: 459px
 }
-#evaluacionUno input:checked + label#five {
+#evaluacionUno input:checked + label#fiveL {
     background-image: url(../img/icon/5gris.png);
 }
 
@@ -179,7 +179,7 @@ border-radius: 20px;
     top: 753px;
 }
 
-#evaluacionDos label#oneTwo {
+#evaluacionDos label#oneTwoL {
     background-image: url(../img/icon/1verde.png);
     position: absolute;
     width: 76px;
@@ -187,11 +187,11 @@ border-radius: 20px;
     left: 574px;
     top: 671px;
 }
-#evaluacionDos input:checked + label#oneTwo {
+#evaluacionDos input:checked + label#oneTwoL {
     background-image: url(../img/icon/1gris.png);
 }
 
-#evaluacionDos label#twoTwo {
+#evaluacionDos label#twoTwoL {
     background-image: url(../img/icon/2verde.png);
     position: absolute;
     width: 77px;
@@ -199,11 +199,11 @@ border-radius: 20px;
     left: 670px;
     top: 671px;
 }
-#evaluacionDos input:checked + label#twoTwo {
+#evaluacionDos input:checked + label#twoTwoL {
     background-image: url(../img/icon/2gris.png);
 }
 
-#evaluacionDos label#threeTwo {
+#evaluacionDos label#threeTwoL {
     background-image: url(../img/icon/3verde.png);
     top: 671px;
     position: absolute;
@@ -211,11 +211,11 @@ border-radius: 20px;
     height: 77px;
     left: 765px;
 }
-#evaluacionDos input:checked + label#threeTwo {
+#evaluacionDos input:checked + label#threeTwoL {
     background-image: url(../img/icon/3gris.png);
 }
 
-#evaluacionDos label#fourTwo {
+#evaluacionDos label#fourTwoL {
     background-image: url(../img/icon/4verde.png);
     position: absolute;
     width: 77px;
@@ -223,11 +223,11 @@ border-radius: 20px;
     left: 861px;
     top: 671px;
 }
-#evaluacionDos input:checked + label#fourTwo {
+#evaluacionDos input:checked + label#fourTwoL {
     background-image: url(../img/icon/4gris.png);
 }
 
-#evaluacionDos label#fiveTwo {
+#evaluacionDos label#fiveTwoL {
     background-image: url(../img/icon/5verde.png);
     position: absolute;
     width: 76px;
@@ -235,7 +235,7 @@ border-radius: 20px;
     left: 957px;
     top: 671px
 }
-#evaluacionDos input:checked + label#fiveTwo {
+#evaluacionDos input:checked + label#fiveTwoL {
     background-image: url(../img/icon/5gris.png);
 }
  
@@ -281,7 +281,7 @@ border-radius: 20px;
     top: 965px;
 }
 
-#evaluacionTres label#oneThree {
+#evaluacionTres label#oneThreeL {
     background-image: url(../img/icon/1verde.png);
     position: absolute;
     width: 76px;
@@ -289,11 +289,11 @@ border-radius: 20px;
     left: 574px;
     top: 883px;
 }
-#evaluacionTres input:checked + label#oneThree {
+#evaluacionTres input:checked + label#oneThreeL {
     background-image: url(../img/icon/1gris.png);
 }
 
-#evaluacionTres label#twoThree {
+#evaluacionTres label#twoThreeL {
     background-image: url(../img/icon/2verde.png);
     position: absolute;
     width: 77px;
@@ -301,11 +301,11 @@ border-radius: 20px;
     left: 670px;
     top: 883px;
 }
-#evaluacionTres input:checked + label#twoThree {
+#evaluacionTres input:checked + label#twoThreeL {
     background-image: url(../img/icon/2gris.png);
 }
 
-#evaluacionTres label#threeThree {
+#evaluacionTres label#threeThreeL {
     background-image: url(../img/icon/3verde.png);
     top: 883px;
     position: absolute;
@@ -313,11 +313,11 @@ border-radius: 20px;
     height: 77px;
     left: 765px;
 }
-#evaluacionTres input:checked + label#threeThree {
+#evaluacionTres input:checked + label#threeThreeL {
     background-image: url(../img/icon/3gris.png);
 }
 
-#evaluacionTres label#fourThree {
+#evaluacionTres label#fourThreeL {
     background-image: url(../img/icon/4verde.png);
     position: absolute;
     width: 77px;
@@ -325,11 +325,11 @@ border-radius: 20px;
     left: 861px;
     top: 883px;
 }
-#evaluacionTres input:checked + label#fourThree {
+#evaluacionTres input:checked + label#fourThreeL {
     background-image: url(../img/icon/4gris.png);
 }
 
-#evaluacionTres label#fiveThree {
+#evaluacionTres label#fiveThreeL {
     background-image: url(../img/icon/5verde.png);
     position: absolute;
     width: 76px;
@@ -337,7 +337,7 @@ border-radius: 20px;
     left: 957px;
     top: 883px
 }
-#evaluacionTres input:checked + label#fiveThree {
+#evaluacionTres input:checked + label#fiveThreeL {
     background-image: url(../img/icon/5gris.png);
 }
 
@@ -382,7 +382,7 @@ border-radius: 20px;
     left: 927px;
     top: 1177px;
 }
-#evaluacionCuatro label#oneFour {
+#evaluacionCuatro label#oneFourL {
     background-image: url(../img/icon/1verde.png);
     position: absolute;
     width: 76px;
@@ -390,11 +390,11 @@ border-radius: 20px;
     left: 574px;
     top: 1095px;
 }
-#evaluacionCuatro input:checked + label#oneFour {
+#evaluacionCuatro input:checked + label#oneFourL {
     background-image: url(../img/icon/1gris.png);
 }
 
-#evaluacionCuatro label#twoFour {
+#evaluacionCuatro label#twoFourL {
     background-image: url(../img/icon/2verde.png);
     position: absolute;
     width: 77px;
@@ -402,11 +402,11 @@ border-radius: 20px;
     left: 670px;
     top: 1095px;
 }
-#evaluacionCuatro input:checked + label#twoFour {
+#evaluacionCuatro input:checked + label#twoFourL {
     background-image: url(../img/icon/2gris.png);
 }
 
-#evaluacionCuatro label#threeFour {
+#evaluacionCuatro label#threeFourL {
     background-image: url(../img/icon/3verde.png);
     top: 1095px;
     position: absolute;
@@ -414,11 +414,11 @@ border-radius: 20px;
     height: 77px;
     left: 765px;
 }
-#evaluacionCuatro input:checked + label#threeFour {
+#evaluacionCuatro input:checked + label#threeFourL {
     background-image: url(../img/icon/3gris.png);
 }
 
-#evaluacionCuatro label#fourFour {
+#evaluacionCuatro label#fourFourL {
     background-image: url(../img/icon/4verde.png);
     position: absolute;
     width: 77px;
@@ -426,11 +426,11 @@ border-radius: 20px;
     left: 861px;
     top: 1095px;
 }
-#evaluacionCuatro input:checked + label#fourFour {
+#evaluacionCuatro input:checked + label#fourFourL {
     background-image: url(../img/icon/4gris.png);
 }
 
-#evaluacionCuatro label#fiveFour {
+#evaluacionCuatro label#fiveFourL {
     background-image: url(../img/icon/5verde.png);
     position: absolute;
     width: 76px;
@@ -438,7 +438,7 @@ border-radius: 20px;
     left: 957px;
     top: 1095px
 }
-#evaluacionCuatro input:checked + label#fiveFour {
+#evaluacionCuatro input:checked + label#fiveFourL {
     background-image: url(../img/icon/5gris.png);
 }
 

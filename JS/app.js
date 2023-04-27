@@ -9,6 +9,11 @@ ingreso.addEventListener('click', (e) => {
         vercomo: vercomo.value
     }
 })
+function todas() { //llamar a todas las funciones
+    guardar()
+    rol()
+}
+
 
 function guardar(){ //funcion para guardar y validar formulario
     var email=document.getElementById("emailInput").value;
@@ -18,20 +23,21 @@ function guardar(){ //funcion para guardar y validar formulario
     } else{
         console.log(email);
         document.getElementById("emailInput").value="";
-    }
-}
-function todas() { //llamar a todas las funciones
-    guardar()
-    rol()
+        if (document.getElementById ('estudiante').checked) {
+            console.log ("estudiante")
+            window.location.href = "pages/perfil-alumno.html";
+        }
+        if (document.getElementById ('profesor').checked) {
+            console.log ("profesor")
+            window.location.href = "pages/perfil-profesor.html";
+        }/*
+        else{
+            alert ("Seleccione Profesor o Estudiante");
+        }*/
+    } 
+    
 }
 
-function rol() { //valor y redireccion de rol
-    if (document.getElementById ('estudiante').checked) {
-        console.log ("estudiante")
-        window.location.href = "pages/perfil-alumno.html";
-    }
-    if (document.getElementById ('profesor').checked) {
-        console.log ("profesor")
-        window.location.href = "pages/perfil-profesor.html";
-    }
-}
+/*function rol() { //valor y redireccion de rol
+
+}*/
