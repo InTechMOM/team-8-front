@@ -37,7 +37,7 @@
 
 /*evaluacion criterio uno*/
 
-.criterioUno {
+.criterioUnoBox {
 background-color: #73CAA3;
 box-sizing: border-box;
 position: absolute;
@@ -142,7 +142,7 @@ border-radius: 20px;
 #evaluacionDos input {
     display: none;
  }
-.criterioDos {
+.criterioDosBox {
     box-sizing: border-box;
     position: absolute;
     width: 735px;
@@ -244,7 +244,7 @@ border-radius: 20px;
 #evaluacionTres input {
     display: none;
  }
-.criterioTres {
+.criterioTresBox {
     box-sizing: border-box;
     position: absolute;
     width: 735px;
@@ -346,7 +346,7 @@ border-radius: 20px;
 #evaluacionCuatro input {
     display: none;
  }
-.criterioCuatro {
+.criterioCuatroBox {
     box-sizing: border-box;
     position: absolute;
     width: 735px;

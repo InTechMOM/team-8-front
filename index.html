@@ -10,19 +10,19 @@
     </head>
     <body>
         <input  type="image" src="./img/icon/edvisto-logo.png" class="edvisto-icon" alt="edvisto-icono">
-        <form id="datos" name="formulario" method="get">
+    <form  action="https://formsubmit.co/developersteam8noc@gmail.com" method="post" id="datos" name="formulario">
         <label for="bienvenido" id="bienvenido"><strong>¡BIENVENIDO!</strong></label>
-        <input type="email" id="emailInput" placeholder="E-mail" required>
+        <input type="email" id="emailInput" placeholder="E-mail" name="Email" required>
         <div class="profesorOption">
-        <input type="radio" id="profesor" name="persona" value="profesor">
+        <input type="radio" id="profesor" name="rol" value="profesor">
         <label for="profesor"><strong>Profesor</strong></label>
         </div>
         <div class="estudianteOption">
-        <input type="radio" id="estudiante" name="persona" value="estudiante">
+        <input type="radio" id="estudiante" name="rol" value="estudiante">
         <label for="estudiante"><strong>Estudiante</strong></label>
         </div>
-        <input type="submit" id="ingresar" value="INGRESAR" onclick="guardar()">
-        </form>
+        <input type="submit" id="ingresar" value="INGRESAR" name="enviar" onclick="guardar()">
+    </form>
     <script src="./JS/app.js"></script>
     </body>
 
