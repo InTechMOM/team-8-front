@@ -477,3 +477,12 @@ span {
     text-align: center;
     color: #6B839A;    
 }
+.deleteButton {
+    background-image: url(../img/icon/delete.png);
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1132px;
+    top: 244px;
+    
+}

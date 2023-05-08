@@ -66,7 +66,7 @@ span {
 }
 /*evaluacion criterio uno*/
 
-.criterioUno {
+.criterioUnoBox {
     box-sizing: border-box;
     position: absolute;
     width: 733.01px;
@@ -169,7 +169,7 @@ span {
 
 /*CRITERIO DOS*/
 
-.criterioDos {
+.criterioDosBox {
     box-sizing: border-box;
     position: absolute;
     width: 735px;
@@ -272,7 +272,7 @@ span {
 
 /*CRITERIO TRES*/
 
-.criterioTres {
+.criterioTresBox {
     box-sizing: border-box;
     position: absolute;
     width: 733.01px;
@@ -373,7 +373,7 @@ span {
     background-image: url(../img/icon/5verde.png);
 }
 
-#conclusionesCuadro {
+#conclusionesFinales {
     box-sizing: border-box;
 
     position: absolute;
@@ -388,7 +388,7 @@ span {
 
 /*CRITERIO CUATRO*/
  
-.criterioCuatro {
+.criterioCuatroBox {
     box-sizing: border-box;
     position: absolute;
     width: 735px;
