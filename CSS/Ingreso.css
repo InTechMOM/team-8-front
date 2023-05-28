@@ -5,14 +5,14 @@ body {
     position: absolute;
     width: 257px;
     height: 257px;
-    left: 589px;
+    left: 627px;
     top: 155px;
 }
 #bienvenido {
     position: absolute;
     width: 513px;
     height: 31px;
-    left: 463px;
+    left: 499px;
     top: 454px;
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
@@ -26,7 +26,7 @@ body {
     position: absolute;
     width: 349px;
     height: 49px;
-    left: 544px;
+    left: 581px;
     top: 515px;
     background: #FFFFFF;
     border: 3px solid #FFFFFF;
@@ -42,7 +42,7 @@ body {
     position: absolute;
     width: 137px;
     height: 31px;
-    left: 593px;
+    left: 622px;
     top: 597px;
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
@@ -56,7 +56,7 @@ body {
     position: absolute;
     width: 137px;
     height: 31px;
-    left: 734px;
+    left: 755px;
     top: 597px;
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
@@ -70,7 +70,7 @@ body {
     position: absolute;
     width: 163px;
     height: 58px;
-    left: 637px;
+    left: 674px;
     top: 662px;
     background: #6B839A;
     border: 3px solid #6B839A;
