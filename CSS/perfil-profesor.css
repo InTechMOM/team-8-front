@@ -89,7 +89,7 @@ span {
     width: 525px;
     height: 19px;
     left: 590px;
-    top: 790px;
+    top: 777px;
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 700;
@@ -146,10 +146,12 @@ span {
     width: 75.79px;
     height: 77px;
     left: 651px;
-    top: 897px;    
+    top: 897px; 
+    background-repeat: no-repeat;   
 }
 #evaluacionUno input:checked + label#one {
-    background-image: url(../img/icon/1gris.png);
+    background-image: url(../img/icon/1gris.png);´
+    background-repeat: no-repeat;
 }
 
 #evaluacionUno label#two {
@@ -159,9 +161,11 @@ span {
     height: 76px;
     left: 734px;
     top: 897px;
+    background-repeat: no-repeat;
 }
 #evaluacionUno input:checked + label#two {
     background-image: url(../img/icon/2gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionUno label#three {
@@ -171,9 +175,11 @@ span {
     height: 77px;
     left: 818px;
     top: 897px;
+    background-repeat: no-repeat;
 }
 #evaluacionUno input:checked + label#three {
     background-image: url(../img/icon/3gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionUno label#four {
@@ -183,9 +189,11 @@ span {
     height: 76px;
     left: 900px;
     top: 897px;
+    background-repeat: no-repeat;
 }
 #evaluacionUno input:checked + label#four {
     background-image: url(../img/icon/4gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionUno label#five {
@@ -195,9 +203,11 @@ span {
     height: 77px;
     left: 983.58px;
     top: 897px;
+    background-repeat: no-repeat;
 }
 #evaluacionUno input:checked + label#five {
     background-image: url(../img/icon/5gris.png);
+    background-repeat: no-repeat;
 }
 
 /*CRITERIO DOS*/
@@ -249,9 +259,11 @@ span {
     height: 77px;
     left: 651px;
     top: 1081px;   
+    background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#oneTwo {
     background-image: url(../img/icon/1gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionDos label#twoTwo {
@@ -261,9 +273,11 @@ span {
     height: 76px;
     left: 734px;
     top: 1081px;
+    background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#twoTwo {
     background-image: url(../img/icon/2gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionDos label#threeTwo {
@@ -273,9 +287,11 @@ span {
     height: 77px;
     left: 818px;
     top: 1081px;
+    background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#threeTwo {
     background-image: url(../img/icon/3gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionDos label#fourTwo {
@@ -285,9 +301,11 @@ span {
     height: 76px;
     left: 900px;
     top: 1081px;
+    background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#fourTwo {
     background-image: url(../img/icon/4gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionDos label#fiveTwo {
@@ -297,9 +315,11 @@ span {
     height: 77px;
     left: 985px;
     top: 1081px;
+    background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#fiveTwo {
     background-image: url(../img/icon/5gris.png);
+    background-repeat: no-repeat;
 }
 
 /*CRITERIO TRES*/
@@ -351,9 +371,11 @@ span {
     height: 77px;
     left: 651px;
     top: 1267px;   
+    background-repeat: no-repeat;
 }
 #evaluacionTres input:checked + label#oneThree {
     background-image: url(../img/icon/1gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionTres label#twoThree {
@@ -363,9 +385,11 @@ span {
     height: 76px;
     left: 734px;
     top: 1267px; 
+    background-repeat: no-repeat;
 }
 #evaluacionTres input:checked + label#twoThree {
     background-image: url(../img/icon/2gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionTres label#threeThree {
@@ -375,9 +399,11 @@ span {
     height: 77px;
     left: 818px;
     top: 1267px;
+    background-repeat: no-repeat;
 }
 #evaluacionTres input:checked + label#threeThree {
     background-image: url(../img/icon/3gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionTres label#fourThree {
@@ -387,9 +413,11 @@ span {
     height: 76px;
     left: 900px;
     top: 1267px;
+    background-repeat: no-repeat;
 }
 #evaluacionTres input:checked + label#fourThree {
     background-image: url(../img/icon/4gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionTres label#fiveThree {
@@ -399,9 +427,11 @@ span {
     height: 77px;
     left: 981.58px;
     top: 1267px;
+    background-repeat: no-repeat;
 }
 #evaluacionTres input:checked + label#fiveThree {
     background-image: url(../img/icon/5gris.png);
+    background-repeat: no-repeat;
 }
 
 /*CRITERIO CUATRO*/
@@ -453,9 +483,11 @@ span {
     height: 77px;
     left: 651px;
     top: 1452px;
+    background-repeat: no-repeat;
 }
 #evaluacionCuatro input:checked + label#oneFour {
     background-image: url(../img/icon/1gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionCuatro label#twoFour {
@@ -464,10 +496,12 @@ span {
     width: 77px;
     height: 76px;
     left: 734px;
-    top: 1452px;  
+    top: 1452px; 
+    background-repeat: no-repeat; 
 }
 #evaluacionCuatro input:checked + label#twoFour {
     background-image: url(../img/icon/2gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionCuatro label#threeFour {
@@ -476,10 +510,12 @@ span {
     width: 76px;
     height: 77px;
     left: 818px;
-    top: 1452px;    
+    top: 1452px;
+    background-repeat: no-repeat;    
 }
 #evaluacionCuatro input:checked + label#threeFour {
     background-image: url(../img/icon/3gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionCuatro label#fourFour {
@@ -489,9 +525,11 @@ span {
     height: 76px;
     left: 900px;
     top: 1452px;
+    background-repeat: no-repeat;
 }
 #evaluacionCuatro input:checked + label#fourFour {
     background-image: url(../img/icon/4gris.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionCuatro label#fiveFour {
@@ -501,9 +539,11 @@ span {
     height: 77px;
     left: 985px;
     top: 1452px;
+    background-repeat: no-repeat;
 }
 #evaluacionCuatro input:checked + label#fiveFour {
     background-image: url(../img/icon/5gris.png);
+    background-repeat: no-repeat;
 }
 
 #iconSubmit {

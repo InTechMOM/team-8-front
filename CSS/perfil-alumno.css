@@ -55,7 +55,7 @@
     width: 558px;
     height: 31px;
     left: 575px;
-    top: 322px;
+    top: 308px;
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-weight: 600;
@@ -114,9 +114,11 @@
     height: 76px;
     left: 649px;
     top: 428px;
+    background-repeat: no-repeat;
 }
 #evaluacionUno input:checked + label#oneL {
     background-image: url(../img/icon/1verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionUno label#twoL {
@@ -126,9 +128,11 @@
     height: 77px;
     left: 732px;
     top: 428px;
+    background-repeat: no-repeat;
 }
 #evaluacionUno input:checked + label#twoL {
     background-image: url(../img/icon/2verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionUno label#threeL {
@@ -138,9 +142,11 @@
     width: 77px;
     height: 77px;
     left: 814px;
+    background-repeat: no-repeat;
 }
 #evaluacionUno input:checked + label#threeL {
     background-image: url(../img/icon/3verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionUno label#fourL {
@@ -150,9 +156,11 @@
     height: 77px;
     left: 897px;
     top: 428px;
+    background-repeat: no-repeat;
 }
 #evaluacionUno input:checked + label#fourL {
     background-image: url(../img/icon/4verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionUno label#fiveL {
@@ -162,9 +170,11 @@
     height: 76px;
     left: 980px;
     top: 428px;
+    background-repeat: no-repeat;
 }
 #evaluacionUno input:checked + label#fiveL {
     background-image: url(../img/icon/5verde.png);
+    background-repeat: no-repeat;
 }
 
 /*criterio dos*/
@@ -214,9 +224,11 @@
     height: 76px;
     left: 649px;
     top: 616px;
+    background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#oneTwoL {
     background-image: url(../img/icon/1verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionDos label#twoTwoL {
@@ -226,9 +238,11 @@
     height: 77px;
     left: 732px;
     top: 616px;
+    background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#twoTwoL {
     background-image: url(../img/icon/2verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionDos label#threeTwoL {
@@ -238,9 +252,11 @@
     width: 77px;
     height: 77px;
     left: 814px;
+    background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#threeTwoL {
     background-image: url(../img/icon/3verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionDos label#fourTwoL {
@@ -250,9 +266,11 @@
     height: 77px;
     left: 897px;
     top: 616px;
+    background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#fourTwoL {
     background-image: url(../img/icon/4verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionDos label#fiveTwoL {
@@ -262,9 +280,11 @@
     height: 76px;
     left: 980px;
     top: 616px;
+    background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#fiveTwoL {
     background-image: url(../img/icon/5verde.png);
+    background-repeat: no-repeat;|
 }
  
 /*criterio tres*/
@@ -316,9 +336,11 @@
     height: 76px;
     left: 649px;
     top: 800px;
+    background-repeat: no-repeat;
 }
 #evaluacionTres input:checked + label#oneThreeL {
     background-image: url(../img/icon/1verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionTres label#twoThreeL {
@@ -328,9 +350,11 @@
     height: 77px;
     left: 732px;
     top: 800px;
+    background-repeat: no-repeat;
 }
 #evaluacionTres input:checked + label#twoThreeL {
     background-image: url(../img/icon/2verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionTres label#threeThreeL {
@@ -340,9 +364,11 @@
     width: 77px;
     height: 77px;
     left: 814px;
+    background-repeat: no-repeat;
 }
 #evaluacionTres input:checked + label#threeThreeL {
     background-image: url(../img/icon/3verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionTres label#fourThreeL {
@@ -352,9 +378,11 @@
     height: 77px;
     left: 897px;
     top: 800px;
+    background-repeat: no-repeat;
 }
 #evaluacionTres input:checked + label#fourThreeL {
     background-image: url(../img/icon/4verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionTres label#fiveThreeL {
@@ -364,9 +392,11 @@
     height: 76px;
     left: 980px;
     top: 800px;
+    background-repeat: no-repeat;
 }
 #evaluacionTres input:checked + label#fiveThreeL {
     background-image: url(../img/icon/5verde.png);
+    background-repeat: no-repeat;
 }
 
 /*criterio cuatro*/
@@ -417,9 +447,11 @@ top: 1070px;
     height: 76px;
     left: 649px;
     top: 986px;
+    background-repeat: no-repeat;
 }
 #evaluacionCuatro input:checked + label#oneFourL {
     background-image: url(../img/icon/1verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionCuatro label#twoFourL {
@@ -429,9 +461,11 @@ top: 1070px;
     height: 77px;
     left: 732px;
     top: 986px;
+    background-repeat: no-repeat;
 }
 #evaluacionCuatro input:checked + label#twoFourL {
     background-image: url(../img/icon/2verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionCuatro label#threeFourL {
@@ -441,9 +475,11 @@ top: 1070px;
     width: 77px;
     height: 77px;
     left: 814px;
+    background-repeat: no-repeat;
 }
 #evaluacionCuatro input:checked + label#threeFourL {
     background-image: url(../img/icon/3verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionCuatro label#fourFourL {
@@ -453,9 +489,11 @@ top: 1070px;
     height: 77px;
     left: 897px;
     top: 986px;
+    background-repeat: no-repeat;
 }
 #evaluacionCuatro input:checked + label#fourFourL {
     background-image: url(../img/icon/4verde.png);
+    background-repeat: no-repeat;
 }
 
 #evaluacionCuatro label#fiveFourL {
@@ -465,9 +503,11 @@ top: 1070px;
     height: 76px;
     left: 980px;
     top: 986px;
+    background-repeat: no-repeat;
 }
 #evaluacionCuatro input:checked + label#fiveFourL {
     background-image: url(../img/icon/5verde.png);
+    background-repeat: no-repeat;
 }
 
 /*enviar*/

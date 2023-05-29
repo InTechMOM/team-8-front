@@ -8,6 +8,12 @@ body {
     left: 627px;
     top: 155px;
 }
+
+.contenedor{
+    margin: auto;
+    
+}
+
 #bienvenido {
     position: absolute;
     width: 513px;
