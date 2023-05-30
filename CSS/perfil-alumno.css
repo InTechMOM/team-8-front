@@ -80,7 +80,7 @@
 }
 #criterioUnoText {
     position: absolute;
-    width: 658px;
+    width: 605px;
     height: 31px;
     top: -15px;
     font-family: 'Barlow Semi Condensed';
@@ -110,8 +110,8 @@
 #evaluacionUno label#oneL {
     background-image: url(../img/icon/1gris.png);
     position: absolute;
-    width: 76px;
-    height: 76px;
+    width: 78px;
+    height: 78px;
     left: 649px;
     top: 428px;
     background-repeat: no-repeat;
@@ -124,8 +124,8 @@
 #evaluacionUno label#twoL {
     background-image: url(../img/icon/2gris.png);
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 732px;
     top: 428px;
     background-repeat: no-repeat;
@@ -139,8 +139,8 @@
     background-image: url(../img/icon/3gris.png);
     top: 428px;
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 814px;
     background-repeat: no-repeat;
 }
@@ -152,8 +152,8 @@
 #evaluacionUno label#fourL {
     background-image: url(../img/icon/4gris.png);
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 897px;
     top: 428px;
     background-repeat: no-repeat;
@@ -166,8 +166,8 @@
 #evaluacionUno label#fiveL {
     background-image: url(../img/icon/5gris.png);
     position: absolute;
-    width: 76px;
-    height: 76px;
+    width: 78px;
+    height: 78px;
     left: 980px;
     top: 428px;
     background-repeat: no-repeat;
@@ -193,9 +193,9 @@
 }
 #criterioDosText {
     position: absolute;
-    width: 658px;
+    width: 605px;
     height: 31px;
-    top: -15px;
+    top: -12px;
     font-family: 'Barlow Semi Condensed';
     font-style: normal;
     font-size: 18px;
@@ -220,8 +220,8 @@
 #evaluacionDos label#oneTwoL {
     background-image: url(../img/icon/1gris.png);
     position: absolute;
-    width: 76px;
-    height: 76px;
+    width: 78px;
+    height: 78px;
     left: 649px;
     top: 616px;
     background-repeat: no-repeat;
@@ -234,8 +234,8 @@
 #evaluacionDos label#twoTwoL {
     background-image: url(../img/icon/2gris.png);
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 732px;
     top: 616px;
     background-repeat: no-repeat;
@@ -249,8 +249,8 @@
     background-image: url(../img/icon/3gris.png);
     top: 616px;
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 814px;
     background-repeat: no-repeat;
 }
@@ -262,8 +262,8 @@
 #evaluacionDos label#fourTwoL {
     background-image: url(../img/icon/4gris.png);
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 897px;
     top: 616px;
     background-repeat: no-repeat;
@@ -276,15 +276,15 @@
 #evaluacionDos label#fiveTwoL {
     background-image: url(../img/icon/5gris.png);
     position: absolute;
-    width: 76px;
-    height: 76px;
+    width: 78px;
+    height: 78px;
     left: 980px;
     top: 616px;
     background-repeat: no-repeat;
 }
 #evaluacionDos input:checked + label#fiveTwoL {
     background-image: url(../img/icon/5verde.png);
-    background-repeat: no-repeat;|
+    background-repeat: no-repeat;
 }
  
 /*criterio tres*/
@@ -305,7 +305,7 @@
 }
 #criterioTresText {
     position: absolute;
-    width: 658px;
+    width: 605px;
     height: 31px;
     top: -15px;
     font-family: 'Barlow Semi Condensed';
@@ -332,8 +332,8 @@
 #evaluacionTres label#oneThreeL {
     background-image: url(../img/icon/1gris.png);
     position: absolute;
-    width: 76px;
-    height: 76px;
+    width: 78px;
+    height: 78px;
     left: 649px;
     top: 800px;
     background-repeat: no-repeat;
@@ -346,8 +346,8 @@
 #evaluacionTres label#twoThreeL {
     background-image: url(../img/icon/2gris.png);
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 732px;
     top: 800px;
     background-repeat: no-repeat;
@@ -361,8 +361,8 @@
     background-image: url(../img/icon/3gris.png);
     top: 800px;
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 814px;
     background-repeat: no-repeat;
 }
@@ -374,8 +374,8 @@
 #evaluacionTres label#fourThreeL {
     background-image: url(../img/icon/4gris.png);
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 897px;
     top: 800px;
     background-repeat: no-repeat;
@@ -388,8 +388,8 @@
 #evaluacionTres label#fiveThreeL {
     background-image: url(../img/icon/5gris.png);
     position: absolute;
-    width: 76px;
-    height: 76px;
+    width: 78px;
+    height: 78px;
     left: 980px;
     top: 800px;
     background-repeat: no-repeat;
@@ -417,7 +417,7 @@
 }
 #criterioCuatroText {
     position: absolute;
-    width: 658px;
+    width: 605px;
     height: 31px;
     top: -15px;
     font-family: 'Barlow Semi Condensed';
@@ -443,8 +443,8 @@ top: 1070px;
 #evaluacionCuatro label#oneFourL {
     background-image: url(../img/icon/1gris.png);
     position: absolute;
-    width: 76px;
-    height: 76px;
+    width: 78px;
+    height: 78px;
     left: 649px;
     top: 986px;
     background-repeat: no-repeat;
@@ -457,8 +457,8 @@ top: 1070px;
 #evaluacionCuatro label#twoFourL {
     background-image: url(../img/icon/2gris.png);
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 732px;
     top: 986px;
     background-repeat: no-repeat;
@@ -472,8 +472,8 @@ top: 1070px;
     background-image: url(../img/icon/3gris.png);
     top: 986px;
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 814px;
     background-repeat: no-repeat;
 }
@@ -485,8 +485,8 @@ top: 1070px;
 #evaluacionCuatro label#fourFourL {
     background-image: url(../img/icon/4gris.png);
     position: absolute;
-    width: 77px;
-    height: 77px;
+    width: 78px;
+    height: 78px;
     left: 897px;
     top: 986px;
     background-repeat: no-repeat;
@@ -499,8 +499,8 @@ top: 1070px;
 #evaluacionCuatro label#fiveFourL {
     background-image: url(../img/icon/5gris.png);
     position: absolute;
-    width: 76px;
-    height: 76px;
+    width: 78px;
+    height: 78px;
     left: 980px;
     top: 986px;
     background-repeat: no-repeat;

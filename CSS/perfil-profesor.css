@@ -581,6 +581,8 @@ span {
     color: #6B839A;
     top
  }
+
+
  #conclusionesFinales {
     box-sizing: border-box;
     position: absolute;
@@ -591,6 +593,7 @@ span {
     background: #FFFFFF;
     border: 3px solid #6B839A;
 }
+
 
  #conclusionesText {
     position: absolute;
