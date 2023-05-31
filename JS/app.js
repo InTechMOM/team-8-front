@@ -40,7 +40,7 @@ function guardar(){ //funcion para guardar y validar formulario
 //Conexion Api Post
 
 
-const form = document.getElementById('datos');
+/*const form = document.getElementById('datos');
 
 form.addEventListener('submit', (event) => {
     event.preventDefault()
@@ -57,4 +57,4 @@ form.addEventListener('submit', (event) => {
     })
     .then((response) => response.json())
     .then((data) => )
-})
+})*/
