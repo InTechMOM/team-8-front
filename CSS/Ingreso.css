@@ -10,8 +10,8 @@ body {
 }
 
 .contenedor{
-    margin: auto;
-    
+    display: flex;
+    justify-content: center;
 }
 
 #bienvenido {

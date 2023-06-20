@@ -9,9 +9,9 @@
         <link rel="stylesheet" href="./CSS/Ingreso.css">
     </head>
     <body>
-        <div class="contenedor">
+    <div class="contenedor">
         <input  type="image" src="./img/icon/edvisto-logo.png" class="edvisto-icon" alt="edvisto-icono">
-    <form  action="" method="post" id="datos" name="formulario">
+    <form id="datos" name="formulario">
         <label for="bienvenido" id="bienvenido"><strong>¡BIENVENIDO!</strong></label>
         <input type="email" id="emailInput" placeholder="correoelectronico@example.com" name="Email" required>
         <div class="profesorOption">
@@ -25,7 +25,8 @@
         <input type="submit" id="ingresar" value="INGRESAR" name="enviar" onclick="guardar()">
     </form>
     </div>
-    <script src="./JS/app.js"></script>
+    <script src="./JS/app.js"></script>   
+    <script src="./JS/apiPost.js"></script>
     </body>
 
 </html>
