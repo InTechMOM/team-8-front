@@ -1,0 +1,614 @@
+.menu-box-izq {
+    height: 2347px;
+}
+#pestanaInformacion {
+    position: absolute;
+    width: 257px;
+    height: 142px;
+    left: 0px;
+    top: 194px;
+    border-radius: 0px 30px 30px 0px;
+    background: #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.informacion-icon {
+    left: 132px;
+    top: 22px;    
+}
+#informacion-text {
+    left: 95px;
+    top: 100px;
+}
+#emailText {
+    position: absolute;
+    width: 416px;
+    height: 19px;
+    left: 644px;
+    top: 177px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #6B839A; 
+}
+#emailSelect {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 395px;
+    position: absolute;
+    width: 600px;
+    height: 56px;
+    left: 552px;
+    top: 212px;
+    background: #FFFFFF;
+    border: 1px solid #6B839A;
+    border-radius: 8px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6B839A;
+}
+img {
+    position: absolute;
+    width: 703px;
+    height: 394.93px;
+    left: 500px;
+    top: 352px;
+}
+span {
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #6B839A;    
+}
+#visText {
+    position: absolute;
+    width: 322px;
+    height: 19px;
+    left: 690px;
+    top: 317px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #6B839A;
+}
+#itemProp {
+    position: absolute;
+    width: 525px;
+    height: 19px;
+    left: 590px;
+    top: 777px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #6B839A;    
+}
+/*evaluacion criterio uno*/
+
+.criterioUnoBox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 55px;
+    left: 552px;
+    top: 825px;
+    background: #6B839A;
+    border: 3px solid #6B839A;
+    border-radius: 30px;
+}
+#criterioUnoText {
+    position: absolute;
+    width: 600px;
+    height: 31px;
+    top: -15px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#criUnoIn {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 620px;
+    top: 980px;    
+}
+#criUnoSa {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 949px;
+    top: 980px;     
+}
+#evaluacionUno input {
+    display: none;
+}
+#evaluacionUno label#one {
+    background-image: url(../img/icon/1verde.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 651px;
+    top: 897px; 
+    background-repeat: no-repeat;   
+}
+#evaluacionUno input:checked + label#one {
+    background-image: url(../img/icon/1gris.png);´
+    background-repeat: no-repeat;
+}
+
+#evaluacionUno label#two {
+    background-image: url(../img/icon/2verde.png);
+    position: absolute;
+    width: 76.79px;
+    height: 76px;
+    left: 734px;
+    top: 897px;
+    background-repeat: no-repeat;
+}
+#evaluacionUno input:checked + label#two {
+    background-image: url(../img/icon/2gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionUno label#three {
+    background-image: url(../img/icon/3verde.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 818px;
+    top: 897px;
+    background-repeat: no-repeat;
+}
+#evaluacionUno input:checked + label#three {
+    background-image: url(../img/icon/3gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionUno label#four {
+    background-image: url(../img/icon/4verde.png);
+    position: absolute;
+    width: 76.79px;
+    height: 76px;
+    left: 900px;
+    top: 897px;
+    background-repeat: no-repeat;
+}
+#evaluacionUno input:checked + label#four {
+    background-image: url(../img/icon/4gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionUno label#five {
+    background-image: url(../img/icon/5verde.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 983.58px;
+    top: 897px;
+    background-repeat: no-repeat;
+}
+#evaluacionUno input:checked + label#five {
+    background-image: url(../img/icon/5gris.png);
+    background-repeat: no-repeat;
+}
+
+/*CRITERIO DOS*/
+
+.criterioDosBox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 55px;
+    left: 552px;
+    top: 1011px;
+    background: #6B839A;
+    border: 3px solid #6B839A;
+    border-radius: 30px;
+}
+#criterioDosText {
+    position: absolute;
+    width: 600px;
+    height: 31px;
+    top: -15px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#criDosIn {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 620px;
+    top: 1166px;    
+}
+#criDosSa {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 949px;
+    top: 1166px; 
+}
+#evaluacionDos input {
+    display: none;
+}
+#evaluacionDos label#oneTwo {
+    background-image: url(../img/icon/1verde.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 651px;
+    top: 1081px;   
+    background-repeat: no-repeat;
+}
+#evaluacionDos input:checked + label#oneTwo {
+    background-image: url(../img/icon/1gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionDos label#twoTwo {
+    background-image: url(../img/icon/2verde.png);
+    position: absolute;
+    width: 77px;
+    height: 76px;
+    left: 734px;
+    top: 1081px;
+    background-repeat: no-repeat;
+}
+#evaluacionDos input:checked + label#twoTwo {
+    background-image: url(../img/icon/2gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionDos label#threeTwo {
+    background-image: url(../img/icon/3verde.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 818px;
+    top: 1081px;
+    background-repeat: no-repeat;
+}
+#evaluacionDos input:checked + label#threeTwo {
+    background-image: url(../img/icon/3gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionDos label#fourTwo {
+    background-image: url(../img/icon/4verde.png);
+    position: absolute;
+    width: 77px;
+    height: 76px;
+    left: 900px;
+    top: 1081px;
+    background-repeat: no-repeat;
+}
+#evaluacionDos input:checked + label#fourTwo {
+    background-image: url(../img/icon/4gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionDos label#fiveTwo {
+    background-image: url(../img/icon/5verde.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 985px;
+    top: 1081px;
+    background-repeat: no-repeat;
+}
+#evaluacionDos input:checked + label#fiveTwo {
+    background-image: url(../img/icon/5gris.png);
+    background-repeat: no-repeat;
+}
+
+/*CRITERIO TRES*/
+
+.criterioTresBox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 55px;
+    left: 552px;
+    top: 1197px;
+    background: #6B839A;
+    border: 3px solid #6B839A;
+    border-radius: 30px;
+}
+#criterioTresText {
+    position: absolute;
+    width: 600px;
+    height: 31px;
+    top: -15px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#criTresIn {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 620px;
+    top: 1352px;
+}
+#criTresSa {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 949px;
+    top: 1352px;
+}
+#evaluacionTres input {
+    display: none;
+}
+#evaluacionTres label#oneThree {
+    background-image: url(../img/icon/1verde.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 651px;
+    top: 1267px;   
+    background-repeat: no-repeat;
+}
+#evaluacionTres input:checked + label#oneThree {
+    background-image: url(../img/icon/1gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionTres label#twoThree {
+    background-image: url(../img/icon/2verde.png);
+    position: absolute;
+    width: 76.79px;
+    height: 76px;
+    left: 734px;
+    top: 1267px; 
+    background-repeat: no-repeat;
+}
+#evaluacionTres input:checked + label#twoThree {
+    background-image: url(../img/icon/2gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionTres label#threeThree {
+    background-image: url(../img/icon/3verde.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 818px;
+    top: 1267px;
+    background-repeat: no-repeat;
+}
+#evaluacionTres input:checked + label#threeThree {
+    background-image: url(../img/icon/3gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionTres label#fourThree {
+    background-image: url(../img/icon/4verde.png);
+    position: absolute;
+    width: 76.79px;
+    height: 76px;
+    left: 900px;
+    top: 1267px;
+    background-repeat: no-repeat;
+}
+#evaluacionTres input:checked + label#fourThree {
+    background-image: url(../img/icon/4gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionTres label#fiveThree {
+    background-image: url(../img/icon/5verde.png);
+    position: absolute;
+    width: 75.79px;
+    height: 77px;
+    left: 981.58px;
+    top: 1267px;
+    background-repeat: no-repeat;
+}
+#evaluacionTres input:checked + label#fiveThree {
+    background-image: url(../img/icon/5gris.png);
+    background-repeat: no-repeat;
+}
+
+/*CRITERIO CUATRO*/
+ 
+.criterioCuatroBox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 55px;
+    left: 552px;
+    top: 1383px;
+    background: #6B839A;
+    border: 3px solid #6B839A;
+    border-radius: 30px;
+}
+#criterioCuatroText {
+    position: absolute;
+    width: 600px;
+    height: 31px;
+    top: -15px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#criCuatroIn {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 620px;
+    top: 1538px;
+}
+#criCuatroSa {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 949px;
+    top: 1538px;
+}
+#evaluacionCuatro input {
+    display: none;
+}
+#evaluacionCuatro label#oneFour {
+    background-image: url(../img/icon/1verde.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 651px;
+    top: 1452px;
+    background-repeat: no-repeat;
+}
+#evaluacionCuatro input:checked + label#oneFour {
+    background-image: url(../img/icon/1gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionCuatro label#twoFour {
+    background-image: url(../img/icon/2verde.png);
+    position: absolute;
+    width: 77px;
+    height: 76px;
+    left: 734px;
+    top: 1452px; 
+    background-repeat: no-repeat; 
+}
+#evaluacionCuatro input:checked + label#twoFour {
+    background-image: url(../img/icon/2gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionCuatro label#threeFour {
+    background-image: url(../img/icon/3verde.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 818px;
+    top: 1452px;
+    background-repeat: no-repeat;    
+}
+#evaluacionCuatro input:checked + label#threeFour {
+    background-image: url(../img/icon/3gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionCuatro label#fourFour {
+    background-image: url(../img/icon/4verde.png);
+    position: absolute;
+    width: 77px;
+    height: 76px;
+    left: 900px;
+    top: 1452px;
+    background-repeat: no-repeat;
+}
+#evaluacionCuatro input:checked + label#fourFour {
+    background-image: url(../img/icon/4gris.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionCuatro label#fiveFour {
+    background-image: url(../img/icon/5verde.png);
+    position: absolute;
+    width: 76px;
+    height: 77px;
+    left: 985px;
+    top: 1452px;
+    background-repeat: no-repeat;
+}
+#evaluacionCuatro input:checked + label#fiveFour {
+    background-image: url(../img/icon/5gris.png);
+    background-repeat: no-repeat;
+}
+
+#iconSubmit {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 764px;
+    top: 1920px;
+}
+ #btnSubmit {
+    position: absolute;
+    width: 163px;
+    height: 58px;
+    left: 747px;
+    top: 2060.73px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+ textarea {
+    resize:none;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6B839A;
+    top
+ }
+
+
+ #conclusionesFinales {
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 208px;
+    left: 463px;
+    top: 1639px;
+    background: #FFFFFF;
+    border: 3px solid #6B839A;
+}
+
+
+ #conclusionesText {
+    position: absolute;
+    width: 769px;
+    height: 31px;
+    left: 443px;
+    top: 1604px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #7A7399;
+ }
+option {
+    background-color: #6B839A;
+    color: #FFFFFF;
+}

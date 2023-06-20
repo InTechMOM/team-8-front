@@ -1,0 +1,547 @@
+
+
+.formulario {
+    font-size: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#datos {
+    float: right;
+}
+#linkInput { /*input "link de youtube"*/
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 599px;
+    height: 52px;
+    left: 554px;
+    top: 211px;
+    
+    background: #FFFFFF;
+    border: 1px solid #6B839A;
+    border-radius: 8px;  
+    background: #FFFFFF;
+    border: 3px solid #6B839A;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: medium;
+}
+#link-text {
+    position: absolute;
+    width: 392px;
+    height: 31px;
+    left: 658px;
+    top: 176px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #6B839A;
+}
+.deleteButton {
+    background-image: url(../img/icon/delete.png);
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1117px;
+    top: 230px;
+    background-repeat: no-repeat;
+}
+#emojiText {
+    position: absolute;
+    width: 558px;
+    height: 31px;
+    left: 575px;
+    top: 308px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #6B839A;
+}
+
+/*evaluacion criterio uno*/
+
+.criterioUnoBox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 55px;
+    left: 554px;
+    top: 357px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    border-radius: 30px;
+}
+#criterioUnoText {
+    position: absolute;
+    width: 605px;
+    height: 31px;
+    top: -15px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+#criUnoIn {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 622px;
+    top: 512px;      
+}
+#criUnoSa {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 951px;
+    top: 512px;       
+}
+
+#evaluacionUno input {
+    display: none;
+}
+#evaluacionUno label#oneL {
+    background-image: url(../img/icon/1gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 649px;
+    top: 428px;
+    background-repeat: no-repeat;
+}
+#evaluacionUno input:checked + label#oneL {
+    background-image: url(../img/icon/1verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionUno label#twoL {
+    background-image: url(../img/icon/2gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 732px;
+    top: 428px;
+    background-repeat: no-repeat;
+}
+#evaluacionUno input:checked + label#twoL {
+    background-image: url(../img/icon/2verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionUno label#threeL {
+    background-image: url(../img/icon/3gris.png);
+    top: 428px;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 814px;
+    background-repeat: no-repeat;
+}
+#evaluacionUno input:checked + label#threeL {
+    background-image: url(../img/icon/3verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionUno label#fourL {
+    background-image: url(../img/icon/4gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 897px;
+    top: 428px;
+    background-repeat: no-repeat;
+}
+#evaluacionUno input:checked + label#fourL {
+    background-image: url(../img/icon/4verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionUno label#fiveL {
+    background-image: url(../img/icon/5gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 980px;
+    top: 428px;
+    background-repeat: no-repeat;
+}
+#evaluacionUno input:checked + label#fiveL {
+    background-image: url(../img/icon/5verde.png);
+    background-repeat: no-repeat;
+}
+
+/*criterio dos*/
+#evaluacionDos input {
+    display: none;
+ }
+.criterioDosBox {
+    position: absolute;
+    width: 600px;
+    height: 55px;
+    left: 554px;
+    top: 543px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    border-radius: 30px;
+}
+#criterioDosText {
+    position: absolute;
+    width: 605px;
+    height: 31px;
+    top: -12px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#criDosIn {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 622px;
+    top: 698px;     
+}
+#criDosSa {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 951px;
+    top: 698px;
+}
+
+#evaluacionDos label#oneTwoL {
+    background-image: url(../img/icon/1gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 649px;
+    top: 616px;
+    background-repeat: no-repeat;
+}
+#evaluacionDos input:checked + label#oneTwoL {
+    background-image: url(../img/icon/1verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionDos label#twoTwoL {
+    background-image: url(../img/icon/2gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 732px;
+    top: 616px;
+    background-repeat: no-repeat;
+}
+#evaluacionDos input:checked + label#twoTwoL {
+    background-image: url(../img/icon/2verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionDos label#threeTwoL {
+    background-image: url(../img/icon/3gris.png);
+    top: 616px;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 814px;
+    background-repeat: no-repeat;
+}
+#evaluacionDos input:checked + label#threeTwoL {
+    background-image: url(../img/icon/3verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionDos label#fourTwoL {
+    background-image: url(../img/icon/4gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 897px;
+    top: 616px;
+    background-repeat: no-repeat;
+}
+#evaluacionDos input:checked + label#fourTwoL {
+    background-image: url(../img/icon/4verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionDos label#fiveTwoL {
+    background-image: url(../img/icon/5gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 980px;
+    top: 616px;
+    background-repeat: no-repeat;
+}
+#evaluacionDos input:checked + label#fiveTwoL {
+    background-image: url(../img/icon/5verde.png);
+    background-repeat: no-repeat;
+}
+ 
+/*criterio tres*/
+
+#evaluacionTres input {
+    display: none;
+ }
+.criterioTresBox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 55px;
+    left: 554px;
+    top: 729px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    border-radius: 30px;
+}
+#criterioTresText {
+    position: absolute;
+    width: 605px;
+    height: 31px;
+    top: -15px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#criTresIn {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 622px;
+    top: 884px; 
+}
+#criTresSa {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 951px;
+    top: 884px;
+}
+
+#evaluacionTres label#oneThreeL {
+    background-image: url(../img/icon/1gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 649px;
+    top: 800px;
+    background-repeat: no-repeat;
+}
+#evaluacionTres input:checked + label#oneThreeL {
+    background-image: url(../img/icon/1verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionTres label#twoThreeL {
+    background-image: url(../img/icon/2gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 732px;
+    top: 800px;
+    background-repeat: no-repeat;
+}
+#evaluacionTres input:checked + label#twoThreeL {
+    background-image: url(../img/icon/2verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionTres label#threeThreeL {
+    background-image: url(../img/icon/3gris.png);
+    top: 800px;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 814px;
+    background-repeat: no-repeat;
+}
+#evaluacionTres input:checked + label#threeThreeL {
+    background-image: url(../img/icon/3verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionTres label#fourThreeL {
+    background-image: url(../img/icon/4gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 897px;
+    top: 800px;
+    background-repeat: no-repeat;
+}
+#evaluacionTres input:checked + label#fourThreeL {
+    background-image: url(../img/icon/4verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionTres label#fiveThreeL {
+    background-image: url(../img/icon/5gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 980px;
+    top: 800px;
+    background-repeat: no-repeat;
+}
+#evaluacionTres input:checked + label#fiveThreeL {
+    background-image: url(../img/icon/5verde.png);
+    background-repeat: no-repeat;
+}
+
+/*criterio cuatro*/
+
+#evaluacionCuatro input {
+    display: none;
+ }
+.criterioCuatroBox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 55px;
+    left: 554px;
+    top: 915px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    border-radius: 30px;
+}
+#criterioCuatroText {
+    position: absolute;
+    width: 605px;
+    height: 31px;
+    top: -15px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#criCuatroIn {
+position: absolute;
+width: 136.63px;
+height: 31px;
+left: 622px;
+top: 1070px;  
+}
+#criCuatroSa {
+    position: absolute;
+    width: 136.63px;
+    height: 31px;
+    left: 951px;
+    top: 1070px;
+}
+#evaluacionCuatro label#oneFourL {
+    background-image: url(../img/icon/1gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 649px;
+    top: 986px;
+    background-repeat: no-repeat;
+}
+#evaluacionCuatro input:checked + label#oneFourL {
+    background-image: url(../img/icon/1verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionCuatro label#twoFourL {
+    background-image: url(../img/icon/2gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 732px;
+    top: 986px;
+    background-repeat: no-repeat;
+}
+#evaluacionCuatro input:checked + label#twoFourL {
+    background-image: url(../img/icon/2verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionCuatro label#threeFourL {
+    background-image: url(../img/icon/3gris.png);
+    top: 986px;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 814px;
+    background-repeat: no-repeat;
+}
+#evaluacionCuatro input:checked + label#threeFourL {
+    background-image: url(../img/icon/3verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionCuatro label#fourFourL {
+    background-image: url(../img/icon/4gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 897px;
+    top: 986px;
+    background-repeat: no-repeat;
+}
+#evaluacionCuatro input:checked + label#fourFourL {
+    background-image: url(../img/icon/4verde.png);
+    background-repeat: no-repeat;
+}
+
+#evaluacionCuatro label#fiveFourL {
+    background-image: url(../img/icon/5gris.png);
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 980px;
+    top: 986px;
+    background-repeat: no-repeat;
+}
+#evaluacionCuatro input:checked + label#fiveFourL {
+    background-image: url(../img/icon/5verde.png);
+    background-repeat: no-repeat;
+}
+
+/*enviar*/
+#iconSubmit {
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    left: 802px;
+    top: 1155px;    
+}
+#btnSubmit {
+    position: absolute;
+    width: 128px;
+    height: 45.83px;
+    left: 790px;
+    top: 1272.73px;
+    background: #73CAA3;
+    border: 3px solid #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+span {
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #6B839A;    
+}
