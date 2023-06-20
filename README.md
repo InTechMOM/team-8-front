@@ -1,5 +1,5 @@
 # team-8-front
-# ✨PROYECTO EDVISTO✨
+# ✨HAPPY MINDS✨
 
 Este proyecto consiste en una página web diseñada para ayudar a los profesores 
 en la evaluación de sus alumnos de primaria. La interfaz es sencilla e intuitiva, 
